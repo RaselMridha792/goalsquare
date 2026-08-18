@@ -54,9 +54,9 @@
   },
   "hero": {
     "eyebrow": "World of Goalkeeping",
-    "title1": "Voor de",
-    "title2": "nummer één.",
-    "subtitle": "Eén methode. Vier tools. Elke training in beeld.",
+    "title1": "Keeperstraining",
+    "title2": "eenvoudig gemaakt.",
+    "subtitle": "Eén methode. Slimme tools. Elke training in beeld.",
     "lead": "Goalsquare combineert een beproefde trainingsmethode met digitale tools, meer dan 1.250 oefeningen en slimme trainingsplanning.",
     "ctaPrimary": "Goalsquare ontdekken",
     "ctaSecondary": "Online plannen",
@@ -111,7 +111,7 @@
       },
       {
         "tag": "Trainingsplan",
-        "title": "Uitvoeren op het veld",
+        "title": "Meenemen het veld op",
         "text": "Bekijk oefeningen en notities mobiel tijdens de training.",
         "bullets": [
           "Overzichtelijke trainingsplannen in pdf",
@@ -162,7 +162,10 @@
     "fullVersion": "Volledige versie",
     "modular": "Modulair uitbreidbaar",
     "freeBadge": "100% gratis",
-    "platforms": "iOS & Android"
+    "platforms": "iOS & Android",
+    "drillsTitle": "Drill Packs",
+    "drillsAvailable": "3 Drill Packs beschikbaar",
+    "archiveBadge": "Archiefuitbreidingen"
   },
   "plan": {
     "badge": "Gloednieuw product",
@@ -266,7 +269,7 @@
     "filterAll": "Alle producten",
     "categories": {
       "software": "Software",
-      "drills": "Drills packs",
+      "drills": "Drill Packs",
       "media": "Media & dvd",
       "bundle": "Bundels",
       "subscription": "Abonnement",

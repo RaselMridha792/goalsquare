@@ -54,9 +54,9 @@
   },
   "hero": {
     "eyebrow": "World of Goalkeeping",
-    "title1": "Für die",
-    "title2": "Nummer eins.",
-    "subtitle": "Eine Methode. Vier Werkzeuge. Jede Einheit im Blick.",
+    "title1": "Torwarttraining",
+    "title2": "leicht gemacht.",
+    "subtitle": "Eine Methode. Intelligente Werkzeuge. Jede Einheit im Blick.",
     "lead": "Goalsquare verbindet eine erprobte Trainingsmethode mit digitalen Tools, über 1.250 Übungen und intelligenter Trainingsplanung.",
     "ctaPrimary": "Goalsquare entdecken",
     "ctaSecondary": "Online planen",
@@ -111,7 +111,7 @@
       },
       {
         "tag": "Trainingsplan",
-        "title": "Auf dem Platz umsetzen",
+        "title": "Auf den Platz mitnehmen",
         "text": "Greife mobil auf Übungen und Notizen während des Trainings zu.",
         "bullets": [
           "Übersichtliche Trainingspläne im PDF-Format",
@@ -162,7 +162,10 @@
     "fullVersion": "Vollversion",
     "modular": "Modular erweiterbar",
     "freeBadge": "100% Gratis",
-    "platforms": "iOS & Android"
+    "platforms": "iOS & Android",
+    "drillsTitle": "Drill Packs",
+    "drillsAvailable": "3 Drill Packs verfügbar",
+    "archiveBadge": "Archiv-Erweiterungen"
   },
   "plan": {
     "badge": "Brandneues Produkt",
@@ -266,7 +269,7 @@
     "filterAll": "Alle Produkte",
     "categories": {
       "software": "Software",
-      "drills": "Drills Packs",
+      "drills": "Drill Packs",
       "media": "Medien & DVD",
       "bundle": "Bundles",
       "subscription": "Abonnement",

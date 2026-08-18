@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { SVGProps } from "react";
 import type { ElementId } from "@/lib/elements";
 
@@ -10,72 +11,78 @@ const base = {
   strokeLinejoin: "round" as const,
 };
 
-export function GoalsquareLogo({ className = "" }: { className?: string }) {
+/** The client's official logo (4167 x 1667). */
+export function GoalsquareLogo({
+  className = "",
+  priority = false,
+}: {
+  className?: string;
+  priority?: boolean;
+}) {
   return (
-    <svg viewBox="0 0 180 40" className={className} role="img" aria-label="Goalsquare">
-      <rect x="0" y="2" width="36" height="36" rx="9" fill="var(--color-gs-green)" />
-      <path
-        d="M9 29V13h6.5a5.5 5.5 0 0 1 0 11H12"
-        fill="none"
-        stroke="#fff"
-        strokeWidth="2.4"
-        strokeLinecap="round"
-      />
-      <circle cx="25.5" cy="15" r="2.6" fill="#fff" />
-      <text
-        x="46"
-        y="26"
-        fontFamily="Archivo, Inter, sans-serif"
-        fontSize="17"
-        fontWeight="800"
-        letterSpacing="-0.6"
-        fill="currentColor"
-      >
-        GOALSQUARE
-      </text>
-    </svg>
+    <Image
+      src="/img/goalsquare-logo.png"
+      alt="Goalsquare — World of Goalkeeping"
+      width={560}
+      height={224}
+      priority={priority}
+      sizes="240px"
+      className={className}
+    />
   );
 }
 
 export const ElementIcons: Record<ElementId, (p: P) => React.ReactElement> = {
-  // 01 Basic technique – goalkeeper stance + ball
+  // 01 Grundtechnik — keeper diving toward the ball (base technique)
   grundtechnik: (p) => (
     <svg viewBox="0 0 32 32" {...base} {...p}>
-      <circle cx="16" cy="6.4" r="2.9" />
-      <path d="M16 9.6v8.2M16 12.5l-4.6 2.6M16 12.5l4.6 2.6M16 17.8l-3.6 8.4M16 17.8l3.6 8.4" />
-      <circle cx="26" cy="24" r="3.4" />
+      <circle cx="9.6" cy="9.2" r="2.5" />
+      <path d="M11.9 10.7c1.6.7 3.2 1.5 4.8 2.4 1 .6 1.6 1.2 2.6 1.2h2.3" />
+      <path d="M16.7 13.1c-1.1 1.4-2.4 2.6-3.9 3.6-1.6 1-3.3 1.6-5 1.9" />
+      <path d="m12.8 16.7 1.9 4.4M7.8 18.6l-.9 4.6" />
+      <circle cx="25.4" cy="14.4" r="4" />
+      <path d="M23 11.7c1 1 1.6 2.3 1.7 3.7M27.6 12.2c-.6 1.2-.7 2.6-.3 3.9" />
     </svg>
   ),
-  // 02 Footwork – fast feet ladder
+  // 02 Beinarbeit — football boots (fast feet, footwork)
   beinarbeit: (p) => (
     <svg viewBox="0 0 32 32" {...base} {...p}>
-      <path d="M7 27 13 5M19 27 25 5" />
-      <path d="M11.4 11h10.2M10.3 15.2h10.2M9.2 19.4h10.2M8.1 23.6h10.2" />
+      <path d="M4.6 10.2c1.9-.5 3.4.2 4.6 1.6 1.2 1.4 2.6 2.3 4.3 2.7l3.4.8c1.4.3 2.2 1.2 2.3 2.6l-.1 1.2H6.2c-1.1 0-1.8-.6-1.9-1.7L4 12.8Z" />
+      <path d="M5.2 22.6h13.4M6.6 20.8v1.8M10 20.8v1.8M13.4 20.8v1.8M16.8 20.8v1.8" />
+      <path d="M21.6 8.2c1.5-.4 2.7.2 3.6 1.3 1 1.1 2.1 1.8 3.4 2.1l1.1.3" strokeWidth="1.3" opacity=".55" />
+      <path d="M22 15.6h6.6" strokeWidth="1.3" opacity=".55" />
     </svg>
   ),
-  // 03 Ball protection – hands catching
+  // 03 Ballsicherung — two hands catching the ball
   ballsicherung: (p) => (
     <svg viewBox="0 0 32 32" {...base} {...p}>
-      <circle cx="16" cy="12.6" r="5.4" />
-      <path d="M6.4 27v-5.1c0-2.1 1.3-3.6 3-3.6h1.7M25.6 27v-5.1c0-2.1-1.3-3.6-3-3.6h-1.7" />
-      <path d="M11.1 18.3 13 21.4M20.9 18.3 19 21.4" />
+      <circle cx="16" cy="11.4" r="5.2" />
+      <path d="M16 6.2v2.1M11.6 9.4l2 1M20.4 9.4l-2 1M13.4 15.6l1-2.1M18.6 15.6l-1-2.1" strokeWidth="1.1" />
+      <path d="M10.6 15.1c-.9-.5-2-.3-2.6.5l-2.3 3a2 2 0 0 0-.2 2l1.7 4a2.4 2.4 0 0 0 2.2 1.4h4.9" />
+      <path d="M21.4 15.1c.9-.5 2-.3 2.6.5l2.3 3c.4.6.5 1.3.2 2l-1.7 4a2.4 2.4 0 0 1-2.2 1.4h-4.9" />
     </svg>
   ),
-  // 04 Positioning – angle / cone from goal
+  // 04 Stellungsspiel — keeper reading the game, ball in hand
   stellungsspiel: (p) => (
     <svg viewBox="0 0 32 32" {...base} {...p}>
-      <path d="M4 8h24M4 8v7M28 8v7" />
-      <path d="M16 26 7.5 12M16 26l8.5-14" strokeDasharray="2.6 2.6" />
-      <circle cx="16" cy="26" r="2.3" />
-      <path d="M16 15.5v-3" />
+      <circle cx="14" cy="5.6" r="2.6" />
+      <path d="M14 8.6v8.1" />
+      <path d="M14 11.2 9 13.4M14 11.2l6.6 2.1" />
+      <path d="m14 16.7-3.6 9.7M14 16.7l3.6 9.7" />
+      <circle cx="23.4" cy="13.9" r="3" />
+      <path d="M4.2 22.4a11 11 0 0 1 4-8.1" strokeDasharray="2.4 2.6" opacity=".6" />
     </svg>
   ),
-  // 05 Game play – goal with two figures
+  // 05 Spielformen — goal with players (game forms, competition)
   spielformen: (p) => (
     <svg viewBox="0 0 32 32" {...base} {...p}>
-      <path d="M3.5 24V9.5h25V24" />
-      <path d="M3.5 24h25M9 24V9.5M16 24V9.5M23 24V9.5M3.5 14.5h25M3.5 19.5h25" />
-      <circle cx="16" cy="28.4" r="2.2" fill="currentColor" stroke="none" />
+      <path d="M4 20.6V10h24v10.6" />
+      <path d="M4 20.6h24" />
+      <path d="M9.2 20.6V10M15 20.6V10M20.8 20.6V10M4 15.3h24" strokeWidth="1.1" opacity=".55" />
+      <circle cx="10.6" cy="25.4" r="1.9" />
+      <circle cx="21.4" cy="25.4" r="1.9" />
+      <path d="M13 25.4h6" strokeDasharray="2 2.2" />
+      <circle cx="16" cy="14.6" r="2.2" fill="currentColor" stroke="none" />
     </svg>
   ),
 };

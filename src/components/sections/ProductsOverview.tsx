@@ -119,11 +119,11 @@ export default async function ProductsOverview({ locale }: { locale: Locale }) {
                 <Icon.Box className="h-5 w-5" />
               </span>
               <span className="rounded-full bg-acc-drills/10 px-2.5 py-1 text-[10px] font-bold uppercase tracking-[.12em] text-acc-drills">
-                Archiv-Erweiterungen
+                {t("archiveBadge")}
               </span>
             </div>
-            <h3 className="mt-5 font-display text-[22px] font-extrabold tracking-tight">Drills Packs</h3>
-            <p className="mt-1 text-[13px] text-gs-muted">{drills.tagline}</p>
+            <h3 className="mt-5 font-display text-[22px] font-extrabold tracking-tight">{t("drillsTitle")}</h3>
+            <p className="mt-1 text-[13px] text-gs-muted">{t("drillsAvailable")} · {drills.tagline}</p>
             <p className="mt-4 text-[13.5px] leading-relaxed text-gs-ink/70">{drills.short}</p>
             <ul className="mt-5 grid flex-1 gap-2">
               {drills.features.slice(0, 4).map((f) => (

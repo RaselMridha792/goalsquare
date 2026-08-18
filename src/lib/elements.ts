@@ -27,9 +27,8 @@ export type GsElement = {
   colorSoft: string;
   /** Inline SVG icon key */
   icon: ElementId;
-  /** Example drill + video assets (replace with the client's real media) */
+  /** Original Goalsquare clip in /public/media */
   video: string;
-  drillImage: string;
 };
 
 export const ELEMENT_META: GsElement[] = [
@@ -40,7 +39,6 @@ export const ELEMENT_META: GsElement[] = [
     colorSoft: "rgba(47,111,237,.10)",
     icon: "grundtechnik",
     video: "/media/GSV0001.mp4",
-    drillImage: "/img/drill-grundtechnik.svg",
   },
   {
     id: "beinarbeit",
@@ -49,7 +47,6 @@ export const ELEMENT_META: GsElement[] = [
     colorSoft: "rgba(214,0,110,.10)",
     icon: "beinarbeit",
     video: "/media/GSV0044.mp4",
-    drillImage: "/img/drill-beinarbeit.svg",
   },
   {
     id: "ballsicherung",
@@ -58,25 +55,22 @@ export const ELEMENT_META: GsElement[] = [
     colorSoft: "rgba(230,51,41,.10)",
     icon: "ballsicherung",
     video: "/media/GSV0089.mp4",
-    drillImage: "/img/drill-ballsicherung.svg",
   },
   {
     id: "stellungsspiel",
     number: "04",
     color: "var(--color-el-4)",
-    colorSoft: "rgba(242,169,0,.12)",
+    colorSoft: "rgba(201,162,39,.13)",
     icon: "stellungsspiel",
     video: "/media/GSV0114.mp4",
-    drillImage: "/img/drill-stellungsspiel.svg",
   },
   {
     id: "spielformen",
     number: "05",
     color: "var(--color-el-5)",
-    colorSoft: "rgba(0,166,81,.10)",
+    colorSoft: "rgba(69,190,122,.12)",
     icon: "spielformen",
     video: "/media/GSV0128.mp4",
-    drillImage: "/img/drill-spielformen.svg",
   },
 ];
 
@@ -331,7 +325,19 @@ export const ELEMENT_TEXT: Record<Locale, Record<ElementId, ElementContent>> = {
   },
 };
 
+/**
+ * The original Goalsquare drill cards, one per element and per language
+ * (GSD = de, GSE = en, GSF = fr, GSN = nl on the old site).
+ */
+export function drillImage(locale: Locale, id: ElementId) {
+  return `/media/drills/${locale}/${id}.jpg`;
+}
+
 export function getElements(locale: Locale) {
-  return ELEMENT_META.map((meta) => ({ ...meta, ...ELEMENT_TEXT[locale][meta.id] }));
+  return ELEMENT_META.map((meta) => ({
+    ...meta,
+    ...ELEMENT_TEXT[locale][meta.id],
+    drillImage: drillImage(locale, meta.id),
+  }));
 }
 export type ResolvedElement = ReturnType<typeof getElements>[number];

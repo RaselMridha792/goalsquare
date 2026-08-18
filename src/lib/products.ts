@@ -291,14 +291,14 @@ const de: Dict = {
     ],
   },
   "drills-pack-1": {
-    name: "Drills Pack #1",
-    tagline: "165 zusätzliche Übungen",
-    short: "Erweitere dein Übungsarchiv um 165 Übungen aus dem Profibereich.",
+    name: "Drill Pack #1",
+    tagline: "150+ zusätzliche Übungen pro Drill Pack",
+    short: "Erweitere dein Übungsarchiv für dauerhaft abwechslungsreiches Training.",
     description: [
       "Drills Packs sind optionale Übungspakete zur Archiv-Erweiterung. Pack #1 bringt 165 zusätzliche Übungen mit Zeichnungen, Coaching-Punkten und Animationen direkt in deine BASIC- oder PRO-Software.",
     ],
     features: [
-      "165 zusätzliche Übungen",
+      "150+ zusätzliche Übungen pro Pack",
       "Erweitert BASIC- und PRO-Archive",
       "Fertige Übungsreihen mit Coaching-Punkten",
       "Sofortiger Import per Lizenzschlüssel",
@@ -309,14 +309,14 @@ const de: Dict = {
     ],
   },
   "drills-pack-2": {
-    name: "Drills Pack #2",
-    tagline: "170 zusätzliche Übungen",
-    short: "Erweitere dein Übungsarchiv um 170 neue Übungen.",
+    name: "Drill Pack #2",
+    tagline: "150+ zusätzliche Übungen pro Drill Pack",
+    short: "Erweitere dein Übungsarchiv für dauerhaft abwechslungsreiches Training.",
     description: [
       "Pack #2 legt den Schwerpunkt auf 1-gegen-1, Flanken und Spieleröffnung – 170 neue Übungen inklusive Variationen.",
     ],
     features: [
-      "170 neue Übungen",
+      "150+ zusätzliche Übungen pro Pack",
       "Schwerpunkte: 1-gegen-1, Flanken, Spieleröffnung",
       "Erweitert BASIC- und PRO-Archive",
       "Sofortiger Import per Lizenzschlüssel",
@@ -327,14 +327,14 @@ const de: Dict = {
     ],
   },
   "drills-pack-3": {
-    name: "Drills Pack #3",
-    tagline: "160 zusätzliche Übungen",
-    short: "Erweitere dein Übungsarchiv um 160 neue Übungen.",
+    name: "Drill Pack #3",
+    tagline: "150+ zusätzliche Übungen pro Drill Pack",
+    short: "Erweitere dein Übungsarchiv für dauerhaft abwechslungsreiches Training.",
     description: [
       "Pack #3 konzentriert sich auf Reflexe, Fallschule und Spielformen – 160 neue Übungen führender Torwarttrainer.",
     ],
     features: [
-      "160 neue Übungen",
+      "150+ zusätzliche Übungen pro Pack",
       "Schwerpunkte: Reflexe, Fallschule, Spielformen",
       "Erweitert BASIC- und PRO-Archive",
       "Sofortiger Import per Lizenzschlüssel",
@@ -509,14 +509,14 @@ const en: Dict = {
     ],
   },
   "drills-pack-1": {
-    name: "Drills Pack #1",
-    tagline: "165 additional drills",
-    short: "Extend your drill archive by 165 drills from the professional game.",
+    name: "Drill Pack #1",
+    tagline: "150+ additional drills per Drill Pack",
+    short: "Expand your drill library for consistently varied training.",
     description: [
       "Drills Packs are optional drill packages that extend your archive. Pack #1 adds 165 drills with diagrams, coaching points and animations straight into your BASIC or PRO software.",
     ],
     features: [
-      "165 additional drills",
+      "150+ additional drills per pack",
       "Extends BASIC and PRO archives",
       "Ready-made drill sequences with coaching points",
       "Instant import via licence key",
@@ -527,14 +527,14 @@ const en: Dict = {
     ],
   },
   "drills-pack-2": {
-    name: "Drills Pack #2",
-    tagline: "170 additional drills",
-    short: "Extend your drill archive by 170 new drills.",
+    name: "Drill Pack #2",
+    tagline: "150+ additional drills per Drill Pack",
+    short: "Expand your drill library for consistently varied training.",
     description: [
       "Pack #2 focuses on 1-v-1, crosses and game opening – 170 new drills including variations.",
     ],
     features: [
-      "170 new drills",
+      "150+ additional drills per pack",
       "Focus: 1-v-1, crosses, game opening",
       "Extends BASIC and PRO archives",
       "Instant import via licence key",
@@ -545,14 +545,14 @@ const en: Dict = {
     ],
   },
   "drills-pack-3": {
-    name: "Drills Pack #3",
-    tagline: "160 additional drills",
-    short: "Extend your drill archive by 160 new drills.",
+    name: "Drill Pack #3",
+    tagline: "150+ additional drills per Drill Pack",
+    short: "Expand your drill library for consistently varied training.",
     description: [
       "Pack #3 concentrates on reflexes, falling technique and game forms – 160 new drills from leading goalkeeper coaches.",
     ],
     features: [
-      "160 new drills",
+      "150+ additional drills per pack",
       "Focus: reflexes, falling technique, game forms",
       "Extends BASIC and PRO archives",
       "Instant import via licence key",
@@ -723,14 +723,14 @@ const fr: Dict = {
     ],
   },
   "drills-pack-1": {
-    name: "Drills Pack #1",
-    tagline: "165 exercices supplémentaires",
-    short: "Étends ton archive de 165 exercices issus du haut niveau.",
+    name: "Drill Pack #1",
+    tagline: "150+ exercices supplémentaires par Drill Pack",
+    short: "Élargis ta bibliothèque d'exercices pour un entraînement toujours varié.",
     description: [
       "Les Drills Packs sont des modules optionnels d'extension de l'archive. Le Pack #1 ajoute 165 exercices avec schémas, points de coaching et animations directement dans ton logiciel BASIC ou PRO.",
     ],
     features: [
-      "165 exercices supplémentaires",
+      "150+ exercices supplémentaires par pack",
       "Étend les archives BASIC et PRO",
       "Séries d'exercices prêtes à l'emploi",
       "Import immédiat par clé de licence",
@@ -741,14 +741,14 @@ const fr: Dict = {
     ],
   },
   "drills-pack-2": {
-    name: "Drills Pack #2",
-    tagline: "170 exercices supplémentaires",
-    short: "Étends ton archive de 170 nouveaux exercices.",
+    name: "Drill Pack #2",
+    tagline: "150+ exercices supplémentaires par Drill Pack",
+    short: "Élargis ta bibliothèque d'exercices pour un entraînement toujours varié.",
     description: [
       "Le Pack #2 met l'accent sur le 1 contre 1, les centres et l'ouverture de jeu – 170 nouveaux exercices avec variantes.",
     ],
     features: [
-      "170 nouveaux exercices",
+      "150+ exercices supplémentaires par pack",
       "Priorités : 1 contre 1, centres, ouverture de jeu",
       "Étend les archives BASIC et PRO",
       "Import immédiat par clé de licence",
@@ -759,14 +759,14 @@ const fr: Dict = {
     ],
   },
   "drills-pack-3": {
-    name: "Drills Pack #3",
-    tagline: "160 exercices supplémentaires",
-    short: "Étends ton archive de 160 nouveaux exercices.",
+    name: "Drill Pack #3",
+    tagline: "150+ exercices supplémentaires par Drill Pack",
+    short: "Élargis ta bibliothèque d'exercices pour un entraînement toujours varié.",
     description: [
       "Le Pack #3 se concentre sur les réflexes, la technique de chute et les formes de jeu – 160 nouveaux exercices d'entraîneurs de gardiens reconnus.",
     ],
     features: [
-      "160 nouveaux exercices",
+      "150+ exercices supplémentaires par pack",
       "Priorités : réflexes, chute, formes de jeu",
       "Étend les archives BASIC et PRO",
       "Import immédiat par clé de licence",
@@ -949,14 +949,14 @@ const nl: Dict = {
     ],
   },
   "drills-pack-1": {
-    name: "Drills Pack #1",
-    tagline: "165 extra oefeningen",
-    short: "Breid je oefeningenarchief uit met 165 oefeningen uit het profvoetbal.",
+    name: "Drill Pack #1",
+    tagline: "150+ extra oefeningen per Drill Pack",
+    short: "Breid je oefeningenbibliotheek uit voor blijvend gevarieerde trainingen.",
     description: [
       "Drills Packs zijn optionele oefeningpakketten om je archief uit te breiden. Pack #1 voegt 165 oefeningen met tekeningen, coachingpunten en animaties direct toe aan je BASIC- of PRO-software.",
     ],
     features: [
-      "165 extra oefeningen",
+      "150+ extra oefeningen per pack",
       "Breidt BASIC- en PRO-archieven uit",
       "Kant-en-klare oefenreeksen met coachingpunten",
       "Directe import via licentiesleutel",
@@ -967,14 +967,14 @@ const nl: Dict = {
     ],
   },
   "drills-pack-2": {
-    name: "Drills Pack #2",
-    tagline: "170 extra oefeningen",
-    short: "Breid je oefeningenarchief uit met 170 nieuwe oefeningen.",
+    name: "Drill Pack #2",
+    tagline: "150+ extra oefeningen per Drill Pack",
+    short: "Breid je oefeningenbibliotheek uit voor blijvend gevarieerde trainingen.",
     description: [
       "Pack #2 legt de nadruk op 1-tegen-1, voorzetten en spelopbouw – 170 nieuwe oefeningen inclusief variaties.",
     ],
     features: [
-      "170 nieuwe oefeningen",
+      "150+ extra oefeningen per pack",
       "Accenten: 1-tegen-1, voorzetten, spelopbouw",
       "Breidt BASIC- en PRO-archieven uit",
       "Directe import via licentiesleutel",
@@ -985,14 +985,14 @@ const nl: Dict = {
     ],
   },
   "drills-pack-3": {
-    name: "Drills Pack #3",
-    tagline: "160 extra oefeningen",
-    short: "Breid je oefeningenarchief uit met 160 nieuwe oefeningen.",
+    name: "Drill Pack #3",
+    tagline: "150+ extra oefeningen per Drill Pack",
+    short: "Breid je oefeningenbibliotheek uit voor blijvend gevarieerde trainingen.",
     description: [
       "Pack #3 richt zich op reflexen, valtechniek en spelvormen – 160 nieuwe oefeningen van toonaangevende keeperstrainers.",
     ],
     features: [
-      "160 nieuwe oefeningen",
+      "150+ extra oefeningen per pack",
       "Accenten: reflexen, valtechniek, spelvormen",
       "Breidt BASIC- en PRO-archieven uit",
       "Directe import via licentiesleutel",

@@ -35,7 +35,7 @@ export default async function KonzeptPage({ params }: { params: Promise<{ locale
   return (
     <>
       {/* ---------- intro ---------- */}
-      <section className="relative overflow-hidden bg-gs-ink pb-24 pt-16 text-white sm:pb-32 sm:pt-20">
+      <section className="relative overflow-hidden bg-gs-ink pb-24 pt-[120px] text-white sm:pb-32 sm:pt-[160px]">
         <div
           aria-hidden
           className="pointer-events-none absolute -right-32 -top-32 h-[520px] w-[520px] rounded-full bg-gs-green/12 blur-[130px]"

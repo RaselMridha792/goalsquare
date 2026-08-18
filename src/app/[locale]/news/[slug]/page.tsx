@@ -70,7 +70,7 @@ export default async function ArticlePage({
     <>
       <article>
         {/* ---------- header ---------- */}
-        <header className="relative overflow-hidden bg-gs-ink pb-16 pt-12 text-white sm:pb-20 sm:pt-16">
+        <header className="relative overflow-hidden bg-gs-ink pb-16 pt-[112px] text-white sm:pb-20 sm:pt-[140px]">
           <div
             aria-hidden
             className="pointer-events-none absolute -right-24 -top-24 h-[420px] w-[420px] rounded-full blur-[120px]"

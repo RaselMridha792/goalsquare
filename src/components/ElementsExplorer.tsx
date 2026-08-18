@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { ElementIcons, Icon } from "./icons";
@@ -204,10 +205,21 @@ export default function ElementsExplorer({
 function DrillPreview({ element, label }: { element: ResolvedElement; label: string }) {
   return (
     <figure className="m-0">
-      <div className="relative aspect-[16/9] w-full overflow-hidden bg-[#0f2417]">
-        <PitchDiagram color={element.color} />
+      <div className="relative grid max-h-[520px] place-items-center overflow-hidden bg-white p-3">
+        {/* the original Goalsquare drill card, in the visitor's language */}
+        <Image
+          src={element.drillImage}
+          alt={`${label}: ${element.title}`}
+          width={1003}
+          height={1240}
+          sizes="(max-width: 768px) 90vw, 520px"
+          className="h-auto max-h-[496px] w-auto object-contain"
+        />
       </div>
-      <figcaption className="flex items-center gap-2 px-4 py-2.5 text-[12.5px] text-gs-muted">
+      <figcaption
+        className="flex items-center gap-2 border-t px-4 py-2.5 text-[12.5px] text-gs-muted"
+        style={{ borderColor: `${element.color}22` }}
+      >
         <Icon.Layers className="h-3.5 w-3.5" style={{ color: element.color }} />
         {label} · {element.title}
       </figcaption>
@@ -218,62 +230,20 @@ function DrillPreview({ element, label }: { element: ResolvedElement; label: str
 function VideoPreview({ element, label }: { element: ResolvedElement; label: string }) {
   return (
     <figure className="m-0">
-      <div className="relative grid aspect-video w-full place-items-center bg-gs-ink">
-        {/*
-          Drop the client's original clips into /public/media (GSV0001.mp4 …).
-          Until then this is a poster with a play affordance.
-        */}
-        <video
-          className="absolute inset-0 h-full w-full object-cover opacity-70"
-          src={element.video}
-          controls
-          preload="none"
-          playsInline
-        />
-        <span className="pointer-events-none relative grid h-14 w-14 place-items-center rounded-full bg-white/90 text-gs-ink">
-          <Icon.Play className="ml-0.5 h-5 w-5" />
-        </span>
-      </div>
+      <video
+        className="aspect-video w-full bg-gs-ink object-cover"
+        src={element.video}
+        controls
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="metadata"
+      />
       <figcaption className="flex items-center gap-2 px-4 py-2.5 text-[12.5px] text-gs-muted">
         <Icon.Play className="h-3 w-3" style={{ color: element.color }} />
         {label} · {element.title}
       </figcaption>
     </figure>
-  );
-}
-
-function PitchDiagram({ color }: { color: string }) {
-  return (
-    <svg viewBox="0 0 320 180" className="h-full w-full">
-      <defs>
-        <pattern id="gsgrass" width="40" height="180" patternUnits="userSpaceOnUse">
-          <rect width="20" height="180" fill="rgba(255,255,255,.028)" />
-        </pattern>
-      </defs>
-      <rect width="320" height="180" fill="url(#gsgrass)" />
-      <g stroke="rgba(255,255,255,.45)" strokeWidth="1.4" fill="none">
-        <rect x="70" y="14" width="180" height="66" />
-        <rect x="118" y="14" width="84" height="30" />
-        <path d="M118 14h84" strokeWidth="3" stroke="rgba(255,255,255,.85)" />
-        <circle cx="160" cy="62" r="1.8" fill="rgba(255,255,255,.85)" stroke="none" />
-        <path d="M112 80a48 48 0 0 0 96 0" />
-      </g>
-      <g stroke={color} strokeWidth="2.2" fill="none" strokeLinecap="round">
-        <path d="M160 30v22" strokeDasharray="4 4" />
-        <path d="M160 52 106 116" markerEnd="url(#gsArrow)" />
-        <path d="M160 52l54 64" markerEnd="url(#gsArrow)" />
-      </g>
-      <defs>
-        <marker id="gsArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
-          <path d="M0 0 10 5 0 10z" fill={color} />
-        </marker>
-      </defs>
-      <circle cx="106" cy="120" r="6" fill={color} />
-      <circle cx="214" cy="120" r="6" fill={color} />
-      <circle cx="160" cy="150" r="7" fill="#fff" />
-      <text x="160" y="153.5" textAnchor="middle" fontSize="8" fontWeight="700" fill="#0f2417">
-        TW
-      </text>
-    </svg>
   );
 }

@@ -54,9 +54,9 @@
   },
   "hero": {
     "eyebrow": "World of Goalkeeping",
-    "title1": "Built for",
-    "title2": "number one.",
-    "subtitle": "One method. Four tools. Every session under control.",
+    "title1": "Goalkeeper Training",
+    "title2": "made Easy.",
+    "subtitle": "One method. Intelligent tools. Every session under control.",
     "lead": "Goalsquare combines a proven training method with digital tools, 1,250+ drills and intelligent session planning.",
     "ctaPrimary": "Discover Goalsquare",
     "ctaSecondary": "Plan online",
@@ -111,7 +111,7 @@
       },
       {
         "tag": "Session plan",
-        "title": "Deliver it on the pitch",
+        "title": "Take it on the pitch",
         "text": "Access drills and notes on your phone during training.",
         "bullets": [
           "Clear session plans as PDF",
@@ -162,7 +162,10 @@
     "fullVersion": "Full version",
     "modular": "Modular",
     "freeBadge": "100% free",
-    "platforms": "iOS & Android"
+    "platforms": "iOS & Android",
+    "drillsTitle": "Drill Packs",
+    "drillsAvailable": "3 Drill Packs available",
+    "archiveBadge": "Archive extensions"
   },
   "plan": {
     "badge": "Brand new product",
@@ -266,7 +269,7 @@
     "filterAll": "All products",
     "categories": {
       "software": "Software",
-      "drills": "Drills packs",
+      "drills": "Drill Packs",
       "media": "Media & DVD",
       "bundle": "Bundles",
       "subscription": "Subscription",

@@ -28,7 +28,7 @@ export default function Footer() {
       <div className="gs-wrap relative z-10 pb-10 pt-16 sm:pt-20">
         <div className="grid gap-12 lg:grid-cols-[1.3fr_2fr]">
           <div>
-            <GoalsquareLogo className="h-8 w-auto text-white" />
+            <GoalsquareLogo className="h-12 w-auto brightness-0 invert" />
             <p className="mt-5 max-w-sm text-[14px] leading-relaxed text-white/55">{t("about")}</p>
             <div className="mt-6 flex gap-2">
               {SOCIAL.map(({ href, label, I }) => (
