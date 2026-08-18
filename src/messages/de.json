@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "siteName": "Goalsquare",
+    "tagline": "World of Goalkeeping",
+    "defaultDescription": "Goalsquare verbindet eine erprobte Trainingsmethode mit digitalen Tools, über 1.250 Übungen und intelligenter Trainingsplanung für Torwarttrainer."
+  },
+  "nav": {
+    "concept": "Konzept",
+    "products": "Produkte",
+    "plan": "Online Planung",
+    "news": "News",
+    "shop": "Shop",
+    "forum": "Forum",
+    "contact": "Kontakt",
+    "planOnline": "Online planen",
+    "cart": "Warenkorb",
+    "menu": "Menü",
+    "close": "Schließen",
+    "language": "Sprache"
+  },
+  "common": {
+    "learnMore": "Mehr erfahren",
+    "showMore": "Mehr erfahren…",
+    "showLess": "Weniger anzeigen",
+    "exampleDrill": "Beispiel-Übung",
+    "video": "Video",
+    "discover": "Entdecken",
+    "all": "Alle",
+    "from": "ab",
+    "perMonth": "/ Monat",
+    "perYear": "/ Jahr",
+    "addToCart": "In den Warenkorb",
+    "inCart": "Im Warenkorb",
+    "buyNow": "Jetzt kaufen",
+    "backToShop": "Zurück zum Shop",
+    "backToNews": "Zurück zur Übersicht",
+    "readArticle": "Weiterlesen",
+    "newsletter": "Newsletter",
+    "subscribe": "Abonnieren",
+    "emailPlaceholder": "deine@email.de",
+    "loading": "Wird geladen…",
+    "soon": "Demnächst",
+    "new": "Neu",
+    "quantity": "Menge",
+    "remove": "Entfernen",
+    "total": "Gesamt",
+    "subtotal": "Zwischensumme",
+    "vat": "inkl. MwSt.",
+    "shipping": "Versand",
+    "freeShipping": "Kostenloser Versand weltweit",
+    "digital": "Digitaler Download",
+    "continue": "Weiter",
+    "skipToContent": "Zum Inhalt springen"
+  },
+  "hero": {
+    "eyebrow": "World of Goalkeeping",
+    "title1": "Für die",
+    "title2": "Nummer eins.",
+    "subtitle": "Eine Methode. Vier Werkzeuge. Jede Einheit im Blick.",
+    "lead": "Goalsquare verbindet eine erprobte Trainingsmethode mit digitalen Tools, über 1.250 Übungen und intelligenter Trainingsplanung.",
+    "ctaPrimary": "Goalsquare entdecken",
+    "ctaSecondary": "Online planen",
+    "ctaShop": "Zum Shop",
+    "videoCaption": "Die Methode in 90 Sekunden",
+    "stat1": "1.250+",
+    "stat1Label": "Torwart-Übungen",
+    "stat2": "5",
+    "stat2Label": "Grundelemente",
+    "stat3": "4",
+    "stat3Label": "Sprachen",
+    "stat4": "20+",
+    "stat4Label": "Jahre Erfahrung"
+  },
+  "how": {
+    "eyebrow": "How Goalsquare works",
+    "title": "So funktioniert Goalsquare.",
+    "subtitle": "Vier Schritte von der Methode bis auf den Platz.",
+    "steps": [
+      {
+        "tag": "Methode",
+        "title": "Methode lernen",
+        "text": "Lerne Aufbau und Prinzipien der Goalsquare-Methode.",
+        "bullets": [
+          "Lehrplan für jede Altersstufe",
+          "5 Grundelemente zur Trainingsplanung",
+          "Übungen mit anpassbaren Schwierigkeitsgraden"
+        ],
+        "detail": "Die Goalsquare-Methode besteht aus einem Lehrplan für modernes und konzeptionelles Torwarttraining. Der Lehrplan besteht aus 5 Elementen, die aufeinander aufbauen, aber auch ineinandergreifen können. Ein großer Teil unserer Trainingsmethode widmet sich neben den torwartspezifischen Fähigkeiten auch den fußballerischen Fähigkeiten des Torwarts."
+      },
+      {
+        "tag": "Archiv",
+        "title": "Übungen auswählen",
+        "text": "Wähle passende Übungen aus der Bibliothek.",
+        "bullets": [
+          "1.250+ Torwart-Übungen",
+          "Sortiert nach den 5 Grundelementen",
+          "Spezielle Aufwärmübungen und mehr"
+        ],
+        "detail": "Wähle aus über 1.250 Torwarttrainingsübungen mit detaillierten Zeichnungen, Beschreibungen, Altersstufe sowie benötigtem Material. Alle Übungen sind durch die Farben der 5 Elemente gekennzeichnet und enthalten einen Basis-Schwierigkeitsgrad, welcher anhand von Variationen gesteigert bzw. verringert werden kann."
+      },
+      {
+        "tag": "Software / App",
+        "title": "Einheit planen",
+        "text": "Effektive Werkzeuge zur Planung.",
+        "bullets": [
+          "BASIC Edition – Software zur schnellen und einfachen Trainingsplanung",
+          "PRO Suite – Professionelle Software für den Torwarttrainer",
+          "PLAN – Online-Portal und App zur intelligenten, KI-gestützten Trainingsplanung"
+        ],
+        "detail": "Ob am Schreibtisch oder unterwegs: Mit BASIC, PRO oder dem neuen Online Session Planner PLAN strukturierst du Dauer, Schwerpunkte und Belastung deiner Einheit in wenigen Minuten."
+      },
+      {
+        "tag": "Trainingsplan",
+        "title": "Auf dem Platz umsetzen",
+        "text": "Greife mobil auf Übungen und Notizen während des Trainings zu.",
+        "bullets": [
+          "Übersichtliche Trainingspläne im PDF-Format",
+          "Trainingsplan direkt auf dem Mobilgerät"
+        ],
+        "detail": "Die kostenlose Mobil-App synchronisiert deine geplanten Einheiten und Übungsanimationen direkt auf den Platz – inklusive Notizen und Feedback."
+      }
+    ]
+  },
+  "elements": {
+    "eyebrow": "Goalsquare Methode",
+    "title": "Die 5 Grundelemente.",
+    "subtitle": "Fünf Elemente, die aufeinander aufbauen und ineinandergreifen – von der isolierten Grundtechnik bis zum spielnahen Wettkampf unter Gegendruck.",
+    "hint": "Wähle ein Element und öffne die Trainingsinhalte.",
+    "contents": "Ausbildungsinhalte:",
+    "teaserCta": "Zum kompletten Konzept",
+    "curriculumTitle": "Ein Lehrplan, fünf Farben.",
+    "curriculumText": "Jedes Element beinhaltet spezielle Übungen für jedes Alter und Leistungsniveau. So kann jeder Torwart speziell gefördert und weiterentwickelt werden. Die Schwierigkeitsstufe kann entsprechend dem Leistungsstand der Torhüter angepasst werden.",
+    "facts": [
+      {
+        "k": "1.250+",
+        "v": "Übungen im Archiv"
+      },
+      {
+        "k": "5",
+        "v": "Grundelemente"
+      },
+      {
+        "k": "U7–Profi",
+        "v": "Alle Altersstufen"
+      },
+      {
+        "k": "PDF",
+        "v": "Export & Druck"
+      }
+    ]
+  },
+  "products": {
+    "eyebrow": "Goalsquare Produktwelt",
+    "title": "Unsere Produkte im Überblick.",
+    "subtitle": "Von der bewährten Desktop-Software über optionale Drills Packs bis zum brandneuen Goalsquare PLAN Online Session Planner.",
+    "appNote": "Die kostenlose Mobil-App in Apple Store & Google Play funktioniert nahtlos mit der BASIC- oder PRO-Softwareversion.",
+    "clubTitle": "Auf der Suche nach Staffelpreisen für deinen Verein?",
+    "clubText": "Wir bieten individuelle Mehrfachlizenzen für Vereine, Torwartschulen und Akademien.",
+    "clubCta": "Vereinsberatung anfragen",
+    "shopCta": "Zum Gesamt-Shop",
+    "singleLicense": "Einzellizenz",
+    "fullVersion": "Vollversion",
+    "modular": "Modular erweiterbar",
+    "freeBadge": "100% Gratis",
+    "platforms": "iOS & Android"
+  },
+  "plan": {
+    "badge": "Brandneues Produkt",
+    "kicker": "Webportal & neue iOS/Android App",
+    "title": "Goalsquare PLAN:",
+    "titleAccent": "Der neue Online Session Planner.",
+    "lead": "Die modernste Lösung für Trainer & Klubs: Plane Einheiten direkt im Webbrowser (ohne Software-Installation) oder in deiner App und greife auf dem Platz direkt darauf zu.",
+    "bullets": [
+      "Sofort im Webbrowser loslegen",
+      "Neue App in Apple Store & Google Play",
+      "KI-unterstützte Trainingsplanung",
+      "PDF-Export"
+    ],
+    "priceMonthly": "9,99",
+    "priceNote": "oder € 99,– / Jahr (inkl. App-Zugang)",
+    "cta": "Jetzt abonnieren",
+    "infoTitle": "Goalsquare PLAN startet im September.",
+    "infoLead": "Unser neues Webportal und die dazugehörige App befinden sich in den letzten Zügen der Entwicklung. Ab Anfang September kannst du deine Trainingseinheiten vollständig online planen.",
+    "infoPoints": [
+      "Planung direkt im Browser – ohne Installation",
+      "Neue iOS- & Android-App mit Offline-Zugriff",
+      "KI-unterstützte Vorschläge für Aufbau und Belastung",
+      "PDF-Export und Teilen im Team"
+    ],
+    "infoNotifyTitle": "Sei am Starttag dabei.",
+    "infoNotifyText": "Trag dich ein und wir informieren dich, sobald PLAN freigeschaltet ist.",
+    "infoNotifyCta": "Benachrichtigt werden",
+    "infoAlt": "In der Zwischenzeit: BASIC & PRO Software entdecken",
+    "infoClose": "Schließen",
+    "success": "Danke! Wir melden uns, sobald PLAN startet."
+  },
+  "workflow": {
+    "eyebrow": "Was passiert in Action",
+    "title1": "Vom ersten Gedanken",
+    "title2": "zur fertigen Einheit.",
+    "text": "Das Online-Portal der PRO Suite: Plane Einheiten, kombiniere Übungen und strukturiere den Ablauf der Entwicklung deiner Torhüter an einem Ort.",
+    "cta": "Online planen",
+    "demoTitle": "Dienstagstraining",
+    "demoDuration": "75 Min",
+    "demoFocus": "Positionsspiel",
+    "demoRows": [
+      "1. Warm-up & Hand-Auge-Koordination",
+      "2. Stellungsspiel & Winkelhalbierende",
+      "3. Reaktions-Drill aus Halbdistanz",
+      "4. Spielform: Torwart gegen Team"
+    ],
+    "demoAdd": "Übung hinzufügen"
+  },
+  "audience": {
+    "eyebrow": "Built for goalkeeper coaches",
+    "title1": "Für alle, die Torhüter",
+    "title2": "entwickeln.",
+    "cards": [
+      {
+        "title": "Einzeltrainer",
+        "text": "Einheiten in Minuten planen und direkt mit auf das Feld nehmen.",
+        "note": "Vom Amateurbereich bis zur Leistungsklasse – strukturierte Vorbereitung in wenigen Minuten."
+      },
+      {
+        "title": "Vereine & Akademien",
+        "text": "Ausbildung über Teams und Jahrgänge hinweg strukturieren.",
+        "note": "Einheitliche Ausbildungsphilosophie und dokumentierte Entwicklungs-Tracking."
+      },
+      {
+        "title": "Torwartschulen",
+        "text": "Camps organisieren und Inhalte für alle Trainer konsistent halten.",
+        "note": "Standardisierte Camp-Leitfäden mit farbigen Goalsquare-Elementen und Reihen."
+      }
+    ]
+  },
+  "ctaBand": {
+    "title1": "Von der Methode",
+    "title2": "zur nächsten Einheit.",
+    "text": "Plane deine erste Einheit im Online-Portal oder starte mit der Goalsquare-Methode.",
+    "primary": "Online planen",
+    "secondary": "Konzept ansehen"
+  },
+  "news": {
+    "eyebrow": "Update & Insights",
+    "title": "Neues von Goalsquare.",
+    "subtitle": "Produkt-Updates, Methodik-Artikel und Neuigkeiten aus der Torwartwelt.",
+    "all": "Alle Beiträge",
+    "archiveTitle": "News & Archiv",
+    "archiveLead": "Alle Meldungen, Produkt-Updates und Fachbeiträge – chronologisch sortiert und nach Kategorie filterbar.",
+    "searchPlaceholder": "Beiträge durchsuchen…",
+    "noResults": "Keine Beiträge gefunden.",
+    "readingTime": "Min. Lesezeit",
+    "relatedTitle": "Weitere Beiträge",
+    "categories": {
+      "product": "Produkt",
+      "method": "Methodik",
+      "company": "Unternehmen",
+      "event": "Events"
+    },
+    "share": "Teilen",
+    "published": "Veröffentlicht am"
+  },
+  "shop": {
+    "title": "Shop",
+    "lead": "Software, Drills Packs und Medien – direkt vom Entwickler der Goalsquare-Methode.",
+    "filterAll": "Alle Produkte",
+    "categories": {
+      "software": "Software",
+      "drills": "Drills Packs",
+      "media": "Medien & DVD",
+      "bundle": "Bundles",
+      "subscription": "Abonnement",
+      "accessory": "Zubehör"
+    },
+    "sort": "Sortieren",
+    "sortDefault": "Empfohlen",
+    "sortPriceAsc": "Preis aufsteigend",
+    "sortPriceDesc": "Preis absteigend",
+    "resultCount": "{count} Produkte",
+    "included": "Enthalten",
+    "specs": "Details",
+    "requirements": "Systemvoraussetzungen",
+    "delivery": "Lieferung",
+    "relatedTitle": "Passt dazu",
+    "addedToCart": "Zum Warenkorb hinzugefügt",
+    "emptyCategory": "In dieser Kategorie sind aktuell keine Produkte verfügbar."
+  },
+  "cart": {
+    "title": "Warenkorb",
+    "empty": "Dein Warenkorb ist leer.",
+    "emptyCta": "Produkte entdecken",
+    "itemCount": "{count} Artikel",
+    "orderSummary": "Bestellübersicht",
+    "checkout": "Zur Kasse",
+    "continueShopping": "Weiter einkaufen",
+    "shippingNote": "Versandkosten werden im nächsten Schritt berechnet.",
+    "digitalNote": "Digitale Produkte werden sofort per E-Mail bereitgestellt."
+  },
+  "checkout": {
+    "title": "Kasse",
+    "step1": "Kontakt",
+    "step2": "Lieferung",
+    "step3": "Zahlung",
+    "contactTitle": "Kontaktdaten",
+    "email": "E-Mail-Adresse",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "club": "Verein / Organisation (optional)",
+    "addressTitle": "Rechnungs- & Lieferadresse",
+    "street": "Straße und Hausnummer",
+    "zip": "PLZ",
+    "city": "Ort",
+    "country": "Land",
+    "phone": "Telefon (optional)",
+    "paymentTitle": "Zahlungsart",
+    "payCard": "Kreditkarte",
+    "payPaypal": "PayPal",
+    "payInvoice": "Rechnung / Überweisung",
+    "cardNumber": "Kartennummer",
+    "cardExpiry": "Gültig bis",
+    "cardCvc": "CVC",
+    "terms": "Ich akzeptiere die AGB und die Datenschutzerklärung.",
+    "placeOrder": "Kostenpflichtig bestellen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "required": "Pflichtfeld",
+    "invalidEmail": "Bitte gib eine gültige E-Mail-Adresse ein.",
+    "demoNotice": "Demo-Checkout: Es wird keine echte Zahlung ausgeführt und keine Karte belastet.",
+    "thankYouTitle": "Danke für deine Bestellung!",
+    "thankYouLead": "Wir haben dir eine Bestätigung per E-Mail geschickt. Digitale Lizenzen sind sofort verfügbar.",
+    "orderNumber": "Bestellnummer",
+    "thankYouCta": "Zurück zur Startseite"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "lead": "Fragen zur Methode, zu Lizenzen oder zu Staffelpreisen? Wir melden uns in der Regel innerhalb von 24 Stunden.",
+    "name": "Name",
+    "email": "E-Mail",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "send": "Nachricht senden",
+    "sent": "Danke! Deine Nachricht ist angekommen.",
+    "infoTitle": "Direkter Draht",
+    "topicOptions": [
+      "Allgemeine Anfrage",
+      "Software & Lizenzen",
+      "Vereinsberatung",
+      "Presse"
+    ]
+  },
+  "footer": {
+    "about": "Eine Methode, digitale Werkzeuge und Online-Planung für modernes Torwarttraining.",
+    "columns": {
+      "product": "Produkt",
+      "method": "Methode",
+      "company": "Unternehmen",
+      "legal": "Rechtliches"
+    },
+    "links": {
+      "imprint": "Impressum",
+      "privacy": "Datenschutz",
+      "terms": "AGB",
+      "shipping": "Versandkosten",
+      "revocation": "Widerruf"
+    },
+    "newsletterTitle": "Bleib auf dem Laufenden",
+    "newsletterText": "Produkt-Updates und neue Übungsreihen – etwa 6× im Jahr.",
+    "rights": "Alle Rechte vorbehalten.",
+    "tagline": "Methode · Drills · Plan · Perform"
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "text": "Diese Seite existiert nicht (mehr). Vielleicht findest du hier weiter:",
+    "cta": "Zur Startseite"
+  }
+}

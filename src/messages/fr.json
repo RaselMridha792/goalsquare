@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "siteName": "Goalsquare",
+    "tagline": "World of Goalkeeping",
+    "defaultDescription": "Goalsquare associe une méthode d'entraînement éprouvée à des outils numériques, plus de 1 250 exercices et une planification intelligente des séances."
+  },
+  "nav": {
+    "concept": "Concept",
+    "products": "Produits",
+    "plan": "Planification en ligne",
+    "news": "Actualités",
+    "shop": "Boutique",
+    "forum": "Forum",
+    "contact": "Contact",
+    "planOnline": "Planifier en ligne",
+    "cart": "Panier",
+    "menu": "Menu",
+    "close": "Fermer",
+    "language": "Langue"
+  },
+  "common": {
+    "learnMore": "En savoir plus",
+    "showMore": "En savoir plus…",
+    "showLess": "Afficher moins",
+    "exampleDrill": "Exercice type",
+    "video": "Vidéo",
+    "discover": "Découvrir",
+    "all": "Tous",
+    "from": "à partir de",
+    "perMonth": "/ mois",
+    "perYear": "/ an",
+    "addToCart": "Ajouter au panier",
+    "inCart": "Dans le panier",
+    "buyNow": "Acheter",
+    "backToShop": "Retour à la boutique",
+    "backToNews": "Retour à l'aperçu",
+    "readArticle": "Lire la suite",
+    "newsletter": "Newsletter",
+    "subscribe": "S'abonner",
+    "emailPlaceholder": "vous@email.com",
+    "loading": "Chargement…",
+    "soon": "Bientôt",
+    "new": "Nouveau",
+    "quantity": "Quantité",
+    "remove": "Retirer",
+    "total": "Total",
+    "subtotal": "Sous-total",
+    "vat": "TVA incluse",
+    "shipping": "Livraison",
+    "freeShipping": "Livraison gratuite dans le monde entier",
+    "digital": "Téléchargement numérique",
+    "continue": "Continuer",
+    "skipToContent": "Aller au contenu"
+  },
+  "hero": {
+    "eyebrow": "World of Goalkeeping",
+    "title1": "Pour le",
+    "title2": "numéro un.",
+    "subtitle": "Une méthode. Quatre outils. Chaque séance maîtrisée.",
+    "lead": "Goalsquare associe une méthode éprouvée à des outils numériques, plus de 1 250 exercices et une planification intelligente.",
+    "ctaPrimary": "Découvrir Goalsquare",
+    "ctaSecondary": "Planifier en ligne",
+    "ctaShop": "Vers la boutique",
+    "videoCaption": "La méthode en 90 secondes",
+    "stat1": "1 250+",
+    "stat1Label": "Exercices gardien",
+    "stat2": "5",
+    "stat2Label": "Éléments de base",
+    "stat3": "4",
+    "stat3Label": "Langues",
+    "stat4": "20+",
+    "stat4Label": "Ans d'expérience"
+  },
+  "how": {
+    "eyebrow": "How Goalsquare works",
+    "title": "Comment fonctionne Goalsquare.",
+    "subtitle": "Quatre étapes, de la méthode au terrain.",
+    "steps": [
+      {
+        "tag": "Méthode",
+        "title": "Apprendre la méthode",
+        "text": "Comprends la structure et les principes de la méthode Goalsquare.",
+        "bullets": [
+          "Un programme pour chaque catégorie d'âge",
+          "5 éléments de base pour la planification",
+          "Exercices à difficulté ajustable"
+        ],
+        "detail": "La méthode Goalsquare est un programme d'entraînement moderne et conceptuel pour gardiens de but. Il se compose de 5 éléments qui se complètent et s'imbriquent. Outre les qualités spécifiques du gardien, une grande partie de la méthode est consacrée à ses compétences footballistiques."
+      },
+      {
+        "tag": "Archives",
+        "title": "Choisir les exercices",
+        "text": "Sélectionne les exercices adaptés dans la bibliothèque.",
+        "bullets": [
+          "Plus de 1 250 exercices",
+          "Classés selon les 5 éléments de base",
+          "Échauffements spécifiques et bien plus"
+        ],
+        "detail": "Choisis parmi plus de 1 250 exercices avec schémas détaillés, descriptions, catégorie d'âge et matériel nécessaire. Chaque exercice porte la couleur de son élément et un niveau de difficulté de base, ajustable par des variantes."
+      },
+      {
+        "tag": "Logiciel / App",
+        "title": "Planifier la séance",
+        "text": "Des outils efficaces pour la planification.",
+        "bullets": [
+          "BASIC Edition – logiciel pour une planification simple et rapide",
+          "PRO Suite – logiciel professionnel pour l'entraîneur des gardiens",
+          "PLAN – portail en ligne et application avec planification assistée par IA"
+        ],
+        "detail": "Au bureau ou en déplacement : avec BASIC, PRO ou le nouveau planificateur en ligne PLAN, structure la durée, les priorités et la charge en quelques minutes."
+      },
+      {
+        "tag": "Plan d'entraînement",
+        "title": "Appliquer sur le terrain",
+        "text": "Accède aux exercices et aux notes depuis ton mobile pendant l'entraînement.",
+        "bullets": [
+          "Plans d'entraînement clairs au format PDF",
+          "Plan directement sur l'appareil mobile"
+        ],
+        "detail": "L'application mobile gratuite synchronise tes séances planifiées et les animations d'exercices directement sur le terrain, notes et retours inclus."
+      }
+    ]
+  },
+  "elements": {
+    "eyebrow": "Méthode Goalsquare",
+    "title": "Les 5 éléments de base.",
+    "subtitle": "Cinq éléments qui se construisent l'un sur l'autre et s'imbriquent – de la technique de base isolée à la compétition sous pression.",
+    "hint": "Choisis un élément pour ouvrir ses contenus d'entraînement.",
+    "contents": "Contenus de formation :",
+    "teaserCta": "Voir le concept complet",
+    "curriculumTitle": "Un programme, cinq couleurs.",
+    "curriculumText": "Chaque élément contient des exercices spécifiques pour chaque âge et chaque niveau, afin que chaque gardien puisse progresser individuellement. Le niveau de difficulté s'adapte au niveau du gardien.",
+    "facts": [
+      {
+        "k": "1 250+",
+        "v": "Exercices archivés"
+      },
+      {
+        "k": "5",
+        "v": "Éléments de base"
+      },
+      {
+        "k": "U7–Pro",
+        "v": "Toutes les catégories"
+      },
+      {
+        "k": "PDF",
+        "v": "Export & impression"
+      }
+    ]
+  },
+  "products": {
+    "eyebrow": "Univers produits Goalsquare",
+    "title": "Nos produits en un coup d'œil.",
+    "subtitle": "Du logiciel de bureau éprouvé aux packs d'exercices optionnels, jusqu'au tout nouveau planificateur en ligne Goalsquare PLAN.",
+    "appNote": "L'application mobile gratuite (Apple Store & Google Play) fonctionne parfaitement avec la version BASIC ou PRO.",
+    "clubTitle": "Vous cherchez des tarifs dégressifs pour votre club ?",
+    "clubText": "Nous proposons des licences multiples pour clubs, écoles de gardiens et académies.",
+    "clubCta": "Demander un conseil club",
+    "shopCta": "Voir toute la boutique",
+    "singleLicense": "Licence individuelle",
+    "fullVersion": "Version complète",
+    "modular": "Extensible",
+    "freeBadge": "100% gratuit",
+    "platforms": "iOS & Android"
+  },
+  "plan": {
+    "badge": "Tout nouveau produit",
+    "kicker": "Portail web & nouvelle app iOS/Android",
+    "title": "Goalsquare PLAN :",
+    "titleAccent": "Le nouveau planificateur de séances en ligne.",
+    "lead": "La solution la plus moderne pour entraîneurs et clubs : planifie tes séances directement dans le navigateur (sans installation) ou dans l'application et consulte-les sur le terrain.",
+    "bullets": [
+      "Démarrer immédiatement dans le navigateur",
+      "Nouvelle app sur Apple Store & Google Play",
+      "Planification assistée par IA",
+      "Export PDF"
+    ],
+    "priceMonthly": "9,99",
+    "priceNote": "ou 99 € / an (accès app inclus)",
+    "cta": "S'abonner",
+    "infoTitle": "Goalsquare PLAN arrive en septembre.",
+    "infoLead": "Notre nouveau portail web et son application sont en phase finale de développement. Dès début septembre, tu pourras planifier tes séances entièrement en ligne.",
+    "infoPoints": [
+      "Planification directe dans le navigateur – sans installation",
+      "Nouvelle app iOS & Android avec accès hors ligne",
+      "Suggestions assistées par IA pour la structure et la charge",
+      "Export PDF et partage en équipe"
+    ],
+    "infoNotifyTitle": "Sois là le jour du lancement.",
+    "infoNotifyText": "Laisse ton e-mail et nous te préviendrons dès l'ouverture de PLAN.",
+    "infoNotifyCta": "Me prévenir",
+    "infoAlt": "En attendant : découvre les logiciels BASIC & PRO",
+    "infoClose": "Fermer",
+    "success": "Merci ! Nous te contactons dès le lancement de PLAN."
+  },
+  "workflow": {
+    "eyebrow": "En action",
+    "title1": "De la première idée",
+    "title2": "à la séance finalisée.",
+    "text": "Le portail en ligne de la PRO Suite : planifie des séances, combine des exercices et structure la progression de tes gardiens au même endroit.",
+    "cta": "Planifier en ligne",
+    "demoTitle": "Séance du mardi",
+    "demoDuration": "75 min",
+    "demoFocus": "Placement",
+    "demoRows": [
+      "1. Échauffement & coordination œil-main",
+      "2. Placement & bissectrice de l'angle",
+      "3. Exercice de réaction à mi-distance",
+      "4. Forme de jeu : gardien contre équipe"
+    ],
+    "demoAdd": "Ajouter un exercice"
+  },
+  "audience": {
+    "eyebrow": "Built for goalkeeper coaches",
+    "title1": "Pour tous ceux qui forment",
+    "title2": "des gardiens.",
+    "cards": [
+      {
+        "title": "Entraîneurs individuels",
+        "text": "Planifier une séance en quelques minutes et l'emporter sur le terrain.",
+        "note": "Du niveau amateur à l'élite – une préparation structurée en quelques minutes."
+      },
+      {
+        "title": "Clubs & académies",
+        "text": "Structurer la formation entre équipes et catégories d'âge.",
+        "note": "Une philosophie de formation commune et un suivi documenté."
+      },
+      {
+        "title": "Écoles de gardiens",
+        "text": "Organiser des stages et garder des contenus cohérents pour tous les entraîneurs.",
+        "note": "Des guides de stage standardisés basés sur les couleurs des éléments Goalsquare."
+      }
+    ]
+  },
+  "ctaBand": {
+    "title1": "De la méthode",
+    "title2": "à la prochaine séance.",
+    "text": "Planifie ta première séance dans le portail en ligne ou commence avec la méthode Goalsquare.",
+    "primary": "Planifier en ligne",
+    "secondary": "Voir le concept"
+  },
+  "news": {
+    "eyebrow": "Actualités & analyses",
+    "title": "Actualités Goalsquare.",
+    "subtitle": "Mises à jour produit, articles méthodologiques et actualités du monde des gardiens.",
+    "all": "Tous les articles",
+    "archiveTitle": "Actualités & archives",
+    "archiveLead": "Toutes les annonces, mises à jour et articles – classés chronologiquement et filtrables par catégorie.",
+    "searchPlaceholder": "Rechercher des articles…",
+    "noResults": "Aucun article trouvé.",
+    "readingTime": "min de lecture",
+    "relatedTitle": "Autres articles",
+    "categories": {
+      "product": "Produit",
+      "method": "Méthode",
+      "company": "Entreprise",
+      "event": "Événements"
+    },
+    "share": "Partager",
+    "published": "Publié le"
+  },
+  "shop": {
+    "title": "Boutique",
+    "lead": "Logiciels, packs d'exercices et médias – directement auprès du créateur de la méthode Goalsquare.",
+    "filterAll": "Tous les produits",
+    "categories": {
+      "software": "Logiciels",
+      "drills": "Packs d'exercices",
+      "media": "Médias & DVD",
+      "bundle": "Offres groupées",
+      "subscription": "Abonnement",
+      "accessory": "Accessoires"
+    },
+    "sort": "Trier",
+    "sortDefault": "Recommandé",
+    "sortPriceAsc": "Prix croissant",
+    "sortPriceDesc": "Prix décroissant",
+    "resultCount": "{count} produits",
+    "included": "Inclus",
+    "specs": "Détails",
+    "requirements": "Configuration requise",
+    "delivery": "Livraison",
+    "relatedTitle": "Va bien avec",
+    "addedToCart": "Ajouté au panier",
+    "emptyCategory": "Aucun produit disponible dans cette catégorie pour le moment."
+  },
+  "cart": {
+    "title": "Panier",
+    "empty": "Votre panier est vide.",
+    "emptyCta": "Découvrir les produits",
+    "itemCount": "{count} articles",
+    "orderSummary": "Récapitulatif",
+    "checkout": "Commander",
+    "continueShopping": "Continuer les achats",
+    "shippingNote": "Les frais de livraison sont calculés à l'étape suivante.",
+    "digitalNote": "Les produits numériques sont envoyés immédiatement par e-mail."
+  },
+  "checkout": {
+    "title": "Commande",
+    "step1": "Contact",
+    "step2": "Livraison",
+    "step3": "Paiement",
+    "contactTitle": "Coordonnées",
+    "email": "Adresse e-mail",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "club": "Club / organisation (facultatif)",
+    "addressTitle": "Adresse de facturation & livraison",
+    "street": "Rue et numéro",
+    "zip": "Code postal",
+    "city": "Ville",
+    "country": "Pays",
+    "phone": "Téléphone (facultatif)",
+    "paymentTitle": "Mode de paiement",
+    "payCard": "Carte bancaire",
+    "payPaypal": "PayPal",
+    "payInvoice": "Facture / virement",
+    "cardNumber": "Numéro de carte",
+    "cardExpiry": "Expiration",
+    "cardCvc": "CVC",
+    "terms": "J'accepte les CGV et la politique de confidentialité.",
+    "placeOrder": "Commander",
+    "back": "Retour",
+    "next": "Continuer",
+    "required": "Champ obligatoire",
+    "invalidEmail": "Merci de saisir une adresse e-mail valide.",
+    "demoNotice": "Commande de démonstration : aucun paiement réel n'est effectué.",
+    "thankYouTitle": "Merci pour votre commande !",
+    "thankYouLead": "Nous vous avons envoyé une confirmation par e-mail. Les licences numériques sont disponibles immédiatement.",
+    "orderNumber": "Numéro de commande",
+    "thankYouCta": "Retour à l'accueil"
+  },
+  "contact": {
+    "title": "Contact",
+    "lead": "Des questions sur la méthode, les licences ou les tarifs de groupe ? Nous répondons généralement sous 24 heures.",
+    "name": "Nom",
+    "email": "E-mail",
+    "subject": "Objet",
+    "message": "Message",
+    "send": "Envoyer le message",
+    "sent": "Merci ! Votre message est bien arrivé.",
+    "infoTitle": "Contact direct",
+    "topicOptions": [
+      "Demande générale",
+      "Logiciels & licences",
+      "Conseil club",
+      "Presse"
+    ]
+  },
+  "footer": {
+    "about": "Une méthode, des outils numériques et une planification en ligne pour l'entraînement moderne des gardiens.",
+    "columns": {
+      "product": "Produit",
+      "method": "Méthode",
+      "company": "Entreprise",
+      "legal": "Mentions légales"
+    },
+    "links": {
+      "imprint": "Mentions légales",
+      "privacy": "Confidentialité",
+      "terms": "CGV",
+      "shipping": "Frais de port",
+      "revocation": "Droit de rétractation"
+    },
+    "newsletterTitle": "Reste informé",
+    "newsletterText": "Mises à jour produit et nouvelles séries d'exercices – environ 6× par an.",
+    "rights": "Tous droits réservés.",
+    "tagline": "Méthode · Exercices · Plan · Performance"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "text": "Cette page n'existe pas (ou plus). Peut-être ceci vous aidera :",
+    "cta": "Retour à l'accueil"
+  }
+}

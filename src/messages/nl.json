@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "siteName": "Goalsquare",
+    "tagline": "World of Goalkeeping",
+    "defaultDescription": "Goalsquare combineert een beproefde trainingsmethode met digitale tools, meer dan 1.250 oefeningen en slimme trainingsplanning."
+  },
+  "nav": {
+    "concept": "Concept",
+    "products": "Producten",
+    "plan": "Online planning",
+    "news": "Nieuws",
+    "shop": "Shop",
+    "forum": "Forum",
+    "contact": "Contact",
+    "planOnline": "Online plannen",
+    "cart": "Winkelwagen",
+    "menu": "Menu",
+    "close": "Sluiten",
+    "language": "Taal"
+  },
+  "common": {
+    "learnMore": "Meer weten",
+    "showMore": "Meer weten…",
+    "showLess": "Minder tonen",
+    "exampleDrill": "Voorbeeldoefening",
+    "video": "Video",
+    "discover": "Ontdekken",
+    "all": "Alle",
+    "from": "vanaf",
+    "perMonth": "/ maand",
+    "perYear": "/ jaar",
+    "addToCart": "In winkelwagen",
+    "inCart": "In winkelwagen",
+    "buyNow": "Nu kopen",
+    "backToShop": "Terug naar de shop",
+    "backToNews": "Terug naar overzicht",
+    "readArticle": "Lees verder",
+    "newsletter": "Nieuwsbrief",
+    "subscribe": "Aanmelden",
+    "emailPlaceholder": "jij@email.nl",
+    "loading": "Laden…",
+    "soon": "Binnenkort",
+    "new": "Nieuw",
+    "quantity": "Aantal",
+    "remove": "Verwijderen",
+    "total": "Totaal",
+    "subtotal": "Subtotaal",
+    "vat": "incl. btw",
+    "shipping": "Verzending",
+    "freeShipping": "Gratis verzending wereldwijd",
+    "digital": "Digitale download",
+    "continue": "Doorgaan",
+    "skipToContent": "Naar inhoud"
+  },
+  "hero": {
+    "eyebrow": "World of Goalkeeping",
+    "title1": "Voor de",
+    "title2": "nummer één.",
+    "subtitle": "Eén methode. Vier tools. Elke training in beeld.",
+    "lead": "Goalsquare combineert een beproefde trainingsmethode met digitale tools, meer dan 1.250 oefeningen en slimme trainingsplanning.",
+    "ctaPrimary": "Goalsquare ontdekken",
+    "ctaSecondary": "Online plannen",
+    "ctaShop": "Naar de shop",
+    "videoCaption": "De methode in 90 seconden",
+    "stat1": "1.250+",
+    "stat1Label": "Keepersoefeningen",
+    "stat2": "5",
+    "stat2Label": "Basiselementen",
+    "stat3": "4",
+    "stat3Label": "Talen",
+    "stat4": "20+",
+    "stat4Label": "Jaar ervaring"
+  },
+  "how": {
+    "eyebrow": "How Goalsquare works",
+    "title": "Zo werkt Goalsquare.",
+    "subtitle": "Vier stappen van de methode tot op het veld.",
+    "steps": [
+      {
+        "tag": "Methode",
+        "title": "Methode leren",
+        "text": "Leer de opbouw en principes van de Goalsquare-methode.",
+        "bullets": [
+          "Leerplan voor elke leeftijdsgroep",
+          "5 basiselementen voor de trainingsplanning",
+          "Oefeningen met aanpasbare moeilijkheidsgraden"
+        ],
+        "detail": "De Goalsquare-methode bestaat uit een leerplan voor moderne en conceptuele keeperstraining. Het leerplan bestaat uit 5 elementen die op elkaar voortbouwen maar ook in elkaar grijpen. Naast de keeperspecifieke eigenschappen besteedt de methode veel aandacht aan de voetbalvaardigheden van de keeper."
+      },
+      {
+        "tag": "Archief",
+        "title": "Oefeningen kiezen",
+        "text": "Kies passende oefeningen uit de bibliotheek.",
+        "bullets": [
+          "1.250+ keepersoefeningen",
+          "Gesorteerd op de 5 basiselementen",
+          "Speciale warming-ups en meer"
+        ],
+        "detail": "Kies uit meer dan 1.250 keepersoefeningen met gedetailleerde tekeningen, beschrijvingen, leeftijdsniveau en benodigd materiaal. Elke oefening is gemarkeerd met de kleur van zijn element en heeft een basismoeilijkheidsgraad die via variaties verhoogd of verlaagd kan worden."
+      },
+      {
+        "tag": "Software / App",
+        "title": "Training plannen",
+        "text": "Effectieve tools voor de planning.",
+        "bullets": [
+          "BASIC Edition – software voor snelle en eenvoudige trainingsplanning",
+          "PRO Suite – professionele software voor de keeperstrainer",
+          "PLAN – online portaal en app voor slimme, AI-ondersteunde planning"
+        ],
+        "detail": "Aan het bureau of onderweg: met BASIC, PRO of de nieuwe online session planner PLAN structureer je duur, accenten en belasting in enkele minuten."
+      },
+      {
+        "tag": "Trainingsplan",
+        "title": "Uitvoeren op het veld",
+        "text": "Bekijk oefeningen en notities mobiel tijdens de training.",
+        "bullets": [
+          "Overzichtelijke trainingsplannen in pdf",
+          "Trainingsplan direct op je mobiel"
+        ],
+        "detail": "De gratis mobiele app synchroniseert je geplande trainingen en oefenanimaties direct naar het veld – inclusief notities en feedback."
+      }
+    ]
+  },
+  "elements": {
+    "eyebrow": "Goalsquare methode",
+    "title": "De 5 basiselementen.",
+    "subtitle": "Vijf elementen die op elkaar voortbouwen en in elkaar grijpen – van geïsoleerde basistechniek tot wedstrijdechte competitie onder druk.",
+    "hint": "Kies een element en open de trainingsinhoud.",
+    "contents": "Trainingsinhoud:",
+    "teaserCta": "Naar het volledige concept",
+    "curriculumTitle": "Eén leerplan, vijf kleuren.",
+    "curriculumText": "Elk element bevat speciale oefeningen voor elke leeftijd en elk niveau, zodat elke keeper individueel begeleid en ontwikkeld kan worden. De moeilijkheidsgraad past zich aan het niveau van de keeper aan.",
+    "facts": [
+      {
+        "k": "1.250+",
+        "v": "Oefeningen in het archief"
+      },
+      {
+        "k": "5",
+        "v": "Basiselementen"
+      },
+      {
+        "k": "U7–Pro",
+        "v": "Alle leeftijdsgroepen"
+      },
+      {
+        "k": "PDF",
+        "v": "Export & print"
+      }
+    ]
+  },
+  "products": {
+    "eyebrow": "Goalsquare productwereld",
+    "title": "Onze producten in één oogopslag.",
+    "subtitle": "Van de beproefde desktopsoftware en optionele drills packs tot de gloednieuwe Goalsquare PLAN online session planner.",
+    "appNote": "De gratis mobiele app in de Apple Store & Google Play werkt naadloos samen met de BASIC- of PRO-softwareversie.",
+    "clubTitle": "Op zoek naar staffelprijzen voor je club?",
+    "clubText": "Wij bieden individuele meervoudige licenties voor clubs, keepersscholen en academies.",
+    "clubCta": "Clubadvies aanvragen",
+    "shopCta": "Naar de volledige shop",
+    "singleLicense": "Enkele licentie",
+    "fullVersion": "Volledige versie",
+    "modular": "Modulair uitbreidbaar",
+    "freeBadge": "100% gratis",
+    "platforms": "iOS & Android"
+  },
+  "plan": {
+    "badge": "Gloednieuw product",
+    "kicker": "Webportaal & nieuwe iOS/Android-app",
+    "title": "Goalsquare PLAN:",
+    "titleAccent": "De nieuwe online session planner.",
+    "lead": "De modernste oplossing voor trainers & clubs: plan trainingen direct in de webbrowser (zonder installatie) of in je app en raadpleeg ze op het veld.",
+    "bullets": [
+      "Direct starten in de webbrowser",
+      "Nieuwe app in Apple Store & Google Play",
+      "AI-ondersteunde trainingsplanning",
+      "PDF-export"
+    ],
+    "priceMonthly": "9,99",
+    "priceNote": "of € 99,– / jaar (incl. app-toegang)",
+    "cta": "Nu abonneren",
+    "infoTitle": "Goalsquare PLAN start in september.",
+    "infoLead": "Ons nieuwe webportaal en de bijbehorende app bevinden zich in de laatste ontwikkelfase. Vanaf begin september plan je je trainingen volledig online.",
+    "infoPoints": [
+      "Plannen direct in de browser – zonder installatie",
+      "Nieuwe iOS- & Android-app met offline toegang",
+      "AI-ondersteunde suggesties voor opbouw en belasting",
+      "PDF-export en delen binnen het team"
+    ],
+    "infoNotifyTitle": "Wees erbij op de startdag.",
+    "infoNotifyText": "Laat je e-mailadres achter en we informeren je zodra PLAN live gaat.",
+    "infoNotifyCta": "Houd me op de hoogte",
+    "infoAlt": "Ondertussen: ontdek de BASIC & PRO software",
+    "infoClose": "Sluiten",
+    "success": "Bedankt! We nemen contact op zodra PLAN start."
+  },
+  "workflow": {
+    "eyebrow": "In actie",
+    "title1": "Van de eerste gedachte",
+    "title2": "tot de complete training.",
+    "text": "Het online portaal van de PRO Suite: plan trainingen, combineer oefeningen en structureer de ontwikkeling van je keepers op één plek.",
+    "cta": "Online plannen",
+    "demoTitle": "Dinsdagtraining",
+    "demoDuration": "75 min",
+    "demoFocus": "Positiespel",
+    "demoRows": [
+      "1. Warming-up & oog-handcoördinatie",
+      "2. Positiespel & bissectrice",
+      "3. Reactieoefening vanaf halve afstand",
+      "4. Spelvorm: keeper tegen team"
+    ],
+    "demoAdd": "Oefening toevoegen"
+  },
+  "audience": {
+    "eyebrow": "Built for goalkeeper coaches",
+    "title1": "Voor iedereen die keepers",
+    "title2": "ontwikkelt.",
+    "cards": [
+      {
+        "title": "Individuele trainers",
+        "text": "Trainingen in minuten plannen en direct meenemen het veld op.",
+        "note": "Van amateur tot topniveau – gestructureerde voorbereiding in enkele minuten."
+      },
+      {
+        "title": "Clubs & academies",
+        "text": "Opleiding structureren over teams en jaargangen heen.",
+        "note": "Eén gedeelde opleidingsfilosofie en gedocumenteerde ontwikkeling."
+      },
+      {
+        "title": "Keepersscholen",
+        "text": "Camps organiseren en de inhoud voor alle trainers consistent houden.",
+        "note": "Gestandaardiseerde campdraaiboeken met de gekleurde Goalsquare-elementen."
+      }
+    ]
+  },
+  "ctaBand": {
+    "title1": "Van de methode",
+    "title2": "naar de volgende training.",
+    "text": "Plan je eerste training in het online portaal of start met de Goalsquare-methode.",
+    "primary": "Online plannen",
+    "secondary": "Concept bekijken"
+  },
+  "news": {
+    "eyebrow": "Updates & inzichten",
+    "title": "Nieuws van Goalsquare.",
+    "subtitle": "Productupdates, methodiekartikelen en nieuws uit de keeperswereld.",
+    "all": "Alle berichten",
+    "archiveTitle": "Nieuws & archief",
+    "archiveLead": "Alle berichten, productupdates en vakartikelen – chronologisch gesorteerd en filterbaar op categorie.",
+    "searchPlaceholder": "Berichten doorzoeken…",
+    "noResults": "Geen berichten gevonden.",
+    "readingTime": "min leestijd",
+    "relatedTitle": "Meer berichten",
+    "categories": {
+      "product": "Product",
+      "method": "Methodiek",
+      "company": "Bedrijf",
+      "event": "Evenementen"
+    },
+    "share": "Delen",
+    "published": "Gepubliceerd op"
+  },
+  "shop": {
+    "title": "Shop",
+    "lead": "Software, drills packs en media – rechtstreeks van de ontwikkelaar van de Goalsquare-methode.",
+    "filterAll": "Alle producten",
+    "categories": {
+      "software": "Software",
+      "drills": "Drills packs",
+      "media": "Media & dvd",
+      "bundle": "Bundels",
+      "subscription": "Abonnement",
+      "accessory": "Accessoires"
+    },
+    "sort": "Sorteren",
+    "sortDefault": "Aanbevolen",
+    "sortPriceAsc": "Prijs oplopend",
+    "sortPriceDesc": "Prijs aflopend",
+    "resultCount": "{count} producten",
+    "included": "Inbegrepen",
+    "specs": "Details",
+    "requirements": "Systeemvereisten",
+    "delivery": "Levering",
+    "relatedTitle": "Past hierbij",
+    "addedToCart": "Toegevoegd aan winkelwagen",
+    "emptyCategory": "In deze categorie zijn momenteel geen producten beschikbaar."
+  },
+  "cart": {
+    "title": "Winkelwagen",
+    "empty": "Je winkelwagen is leeg.",
+    "emptyCta": "Producten ontdekken",
+    "itemCount": "{count} artikelen",
+    "orderSummary": "Besteloverzicht",
+    "checkout": "Afrekenen",
+    "continueShopping": "Verder winkelen",
+    "shippingNote": "Verzendkosten worden in de volgende stap berekend.",
+    "digitalNote": "Digitale producten worden direct per e-mail geleverd."
+  },
+  "checkout": {
+    "title": "Afrekenen",
+    "step1": "Contact",
+    "step2": "Levering",
+    "step3": "Betaling",
+    "contactTitle": "Contactgegevens",
+    "email": "E-mailadres",
+    "firstName": "Voornaam",
+    "lastName": "Achternaam",
+    "club": "Club / organisatie (optioneel)",
+    "addressTitle": "Factuur- & bezorgadres",
+    "street": "Straat en huisnummer",
+    "zip": "Postcode",
+    "city": "Plaats",
+    "country": "Land",
+    "phone": "Telefoon (optioneel)",
+    "paymentTitle": "Betaalmethode",
+    "payCard": "Creditcard",
+    "payPaypal": "PayPal",
+    "payInvoice": "Factuur / overboeking",
+    "cardNumber": "Kaartnummer",
+    "cardExpiry": "Geldig tot",
+    "cardCvc": "CVC",
+    "terms": "Ik accepteer de algemene voorwaarden en het privacybeleid.",
+    "placeOrder": "Bestelling plaatsen",
+    "back": "Terug",
+    "next": "Doorgaan",
+    "required": "Verplicht veld",
+    "invalidEmail": "Voer een geldig e-mailadres in.",
+    "demoNotice": "Demo-checkout: er wordt geen echte betaling verwerkt.",
+    "thankYouTitle": "Bedankt voor je bestelling!",
+    "thankYouLead": "We hebben je een bevestiging per e-mail gestuurd. Digitale licenties zijn direct beschikbaar.",
+    "orderNumber": "Bestelnummer",
+    "thankYouCta": "Terug naar de startpagina"
+  },
+  "contact": {
+    "title": "Contact",
+    "lead": "Vragen over de methode, licenties of staffelprijzen? We reageren meestal binnen 24 uur.",
+    "name": "Naam",
+    "email": "E-mail",
+    "subject": "Onderwerp",
+    "message": "Bericht",
+    "send": "Bericht versturen",
+    "sent": "Bedankt! Je bericht is aangekomen.",
+    "infoTitle": "Direct contact",
+    "topicOptions": [
+      "Algemene vraag",
+      "Software & licenties",
+      "Clubadvies",
+      "Pers"
+    ]
+  },
+  "footer": {
+    "about": "Eén methode, digitale tools en online planning voor moderne keeperstraining.",
+    "columns": {
+      "product": "Product",
+      "method": "Methode",
+      "company": "Bedrijf",
+      "legal": "Juridisch"
+    },
+    "links": {
+      "imprint": "Colofon",
+      "privacy": "Privacy",
+      "terms": "Voorwaarden",
+      "shipping": "Verzendkosten",
+      "revocation": "Herroepingsrecht"
+    },
+    "newsletterTitle": "Blijf op de hoogte",
+    "newsletterText": "Productupdates en nieuwe oefenreeksen – ongeveer 6× per jaar.",
+    "rights": "Alle rechten voorbehouden.",
+    "tagline": "Methode · Drills · Plan · Perform"
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "text": "Deze pagina bestaat niet (meer). Misschien helpt dit verder:",
+    "cta": "Naar de startpagina"
+  }
+}

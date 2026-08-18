@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "siteName": "Goalsquare",
+    "tagline": "World of Goalkeeping",
+    "defaultDescription": "Goalsquare combines a proven training method with digital tools, 1,250+ drills and intelligent session planning for goalkeeper coaches."
+  },
+  "nav": {
+    "concept": "Concept",
+    "products": "Products",
+    "plan": "Online Planning",
+    "news": "News",
+    "shop": "Shop",
+    "forum": "Forum",
+    "contact": "Contact",
+    "planOnline": "Plan online",
+    "cart": "Cart",
+    "menu": "Menu",
+    "close": "Close",
+    "language": "Language"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "showMore": "Learn more…",
+    "showLess": "Show less",
+    "exampleDrill": "Example drill",
+    "video": "Video",
+    "discover": "Discover",
+    "all": "All",
+    "from": "from",
+    "perMonth": "/ month",
+    "perYear": "/ year",
+    "addToCart": "Add to cart",
+    "inCart": "In cart",
+    "buyNow": "Buy now",
+    "backToShop": "Back to shop",
+    "backToNews": "Back to overview",
+    "readArticle": "Read more",
+    "newsletter": "Newsletter",
+    "subscribe": "Subscribe",
+    "emailPlaceholder": "you@email.com",
+    "loading": "Loading…",
+    "soon": "Coming soon",
+    "new": "New",
+    "quantity": "Quantity",
+    "remove": "Remove",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "vat": "incl. VAT",
+    "shipping": "Shipping",
+    "freeShipping": "Free worldwide shipping",
+    "digital": "Digital download",
+    "continue": "Continue",
+    "skipToContent": "Skip to content"
+  },
+  "hero": {
+    "eyebrow": "World of Goalkeeping",
+    "title1": "Built for",
+    "title2": "number one.",
+    "subtitle": "One method. Four tools. Every session under control.",
+    "lead": "Goalsquare combines a proven training method with digital tools, 1,250+ drills and intelligent session planning.",
+    "ctaPrimary": "Discover Goalsquare",
+    "ctaSecondary": "Plan online",
+    "ctaShop": "Go to shop",
+    "videoCaption": "The method in 90 seconds",
+    "stat1": "1,250+",
+    "stat1Label": "Goalkeeper drills",
+    "stat2": "5",
+    "stat2Label": "Core elements",
+    "stat3": "4",
+    "stat3Label": "Languages",
+    "stat4": "20+",
+    "stat4Label": "Years of experience"
+  },
+  "how": {
+    "eyebrow": "How Goalsquare works",
+    "title": "How Goalsquare works.",
+    "subtitle": "Four steps from the method to the pitch.",
+    "steps": [
+      {
+        "tag": "Method",
+        "title": "Learn the method",
+        "text": "Understand the structure and principles of the Goalsquare method.",
+        "bullets": [
+          "Curriculum for every age group",
+          "5 core elements for session planning",
+          "Drills with adjustable difficulty levels"
+        ],
+        "detail": "The Goalsquare method is a curriculum for modern, concept-driven goalkeeper training. It consists of 5 elements that build on each other but also interlock. Alongside goalkeeper-specific attributes, a large part of the method is dedicated to the footballing skills of the goalkeeper."
+      },
+      {
+        "tag": "Archive",
+        "title": "Select drills",
+        "text": "Pick the right exercises from the library.",
+        "bullets": [
+          "1,250+ goalkeeper drills",
+          "Sorted by the 5 core elements",
+          "Dedicated warm-up drills and more"
+        ],
+        "detail": "Choose from more than 1,250 goalkeeper drills with detailed diagrams, descriptions, age level and required equipment. Every drill is colour-coded by element and carries a base difficulty that can be increased or reduced through variations."
+      },
+      {
+        "tag": "Software / App",
+        "title": "Plan the session",
+        "text": "Effective tools for planning.",
+        "bullets": [
+          "BASIC Edition – software for fast, simple session planning",
+          "PRO Suite – professional software for the goalkeeper coach",
+          "PLAN – online portal and app for intelligent, AI-assisted planning"
+        ],
+        "detail": "At your desk or on the move: with BASIC, PRO or the new PLAN online session planner you structure duration, focus and load in a few minutes."
+      },
+      {
+        "tag": "Session plan",
+        "title": "Deliver it on the pitch",
+        "text": "Access drills and notes on your phone during training.",
+        "bullets": [
+          "Clear session plans as PDF",
+          "Session plan directly on your mobile device"
+        ],
+        "detail": "The free mobile app syncs your planned sessions and drill animations straight to the pitch – including notes and feedback."
+      }
+    ]
+  },
+  "elements": {
+    "eyebrow": "Goalsquare method",
+    "title": "The 5 core elements.",
+    "subtitle": "Five elements that build on each other and interlock – from isolated basic technique to game-realistic competition under pressure.",
+    "hint": "Select an element to open its training content.",
+    "contents": "Training content:",
+    "teaserCta": "See the full concept",
+    "curriculumTitle": "One curriculum, five colours.",
+    "curriculumText": "Every element contains dedicated drills for each age and performance level, so every goalkeeper can be developed individually. The difficulty can be adapted to the level of the keeper.",
+    "facts": [
+      {
+        "k": "1,250+",
+        "v": "Drills in the archive"
+      },
+      {
+        "k": "5",
+        "v": "Core elements"
+      },
+      {
+        "k": "U7–Pro",
+        "v": "All age groups"
+      },
+      {
+        "k": "PDF",
+        "v": "Export & print"
+      }
+    ]
+  },
+  "products": {
+    "eyebrow": "Goalsquare product world",
+    "title": "Our products at a glance.",
+    "subtitle": "From the proven desktop software and optional drills packs to the brand-new Goalsquare PLAN online session planner.",
+    "appNote": "The free mobile app on the Apple Store & Google Play works seamlessly with the BASIC or PRO software version.",
+    "clubTitle": "Looking for volume pricing for your club?",
+    "clubText": "We offer individual multi-licences for clubs, goalkeeper schools and academies.",
+    "clubCta": "Request club advice",
+    "shopCta": "Go to full shop",
+    "singleLicense": "Single licence",
+    "fullVersion": "Full version",
+    "modular": "Modular",
+    "freeBadge": "100% free",
+    "platforms": "iOS & Android"
+  },
+  "plan": {
+    "badge": "Brand new product",
+    "kicker": "Web portal & new iOS/Android app",
+    "title": "Goalsquare PLAN:",
+    "titleAccent": "The new online session planner.",
+    "lead": "The most modern solution for coaches & clubs: plan sessions directly in your web browser (no installation) or in the app and access them right on the pitch.",
+    "bullets": [
+      "Start instantly in the browser",
+      "New app on Apple Store & Google Play",
+      "AI-assisted session planning",
+      "PDF export"
+    ],
+    "priceMonthly": "9.99",
+    "priceNote": "or € 99,– / year (incl. app access)",
+    "cta": "Subscribe now",
+    "infoTitle": "Goalsquare PLAN launches in September.",
+    "infoLead": "Our new web portal and companion app are in the final stage of development. From early September you will be able to plan your sessions entirely online.",
+    "infoPoints": [
+      "Plan directly in the browser – no installation",
+      "New iOS & Android app with offline access",
+      "AI-assisted suggestions for structure and load",
+      "PDF export and team sharing"
+    ],
+    "infoNotifyTitle": "Be there on launch day.",
+    "infoNotifyText": "Leave your email and we will let you know the moment PLAN goes live.",
+    "infoNotifyCta": "Notify me",
+    "infoAlt": "In the meantime: explore BASIC & PRO software",
+    "infoClose": "Close",
+    "success": "Thank you! We will be in touch when PLAN launches."
+  },
+  "workflow": {
+    "eyebrow": "What happens in action",
+    "title1": "From the first idea",
+    "title2": "to the finished session.",
+    "text": "The PRO Suite online portal: plan sessions, combine drills and structure the development path of your goalkeepers in one place.",
+    "cta": "Plan online",
+    "demoTitle": "Tuesday session",
+    "demoDuration": "75 min",
+    "demoFocus": "Positioning",
+    "demoRows": [
+      "1. Warm-up & hand-eye coordination",
+      "2. Positioning & bisecting the angle",
+      "3. Reaction drill from mid-range",
+      "4. Game form: keeper vs. team"
+    ],
+    "demoAdd": "Add drill"
+  },
+  "audience": {
+    "eyebrow": "Built for goalkeeper coaches",
+    "title1": "For everyone who develops",
+    "title2": "goalkeepers.",
+    "cards": [
+      {
+        "title": "Individual coaches",
+        "text": "Plan sessions in minutes and take them straight onto the field.",
+        "note": "From grassroots to elite – structured preparation in a few minutes."
+      },
+      {
+        "title": "Clubs & academies",
+        "text": "Structure development across teams and age groups.",
+        "note": "One shared coaching philosophy and documented development tracking."
+      },
+      {
+        "title": "Goalkeeper schools",
+        "text": "Run camps and keep content consistent across all coaches.",
+        "note": "Standardised camp guides using the colour-coded Goalsquare elements."
+      }
+    ]
+  },
+  "ctaBand": {
+    "title1": "From the method",
+    "title2": "to the next session.",
+    "text": "Plan your first session in the online portal or start with the Goalsquare method.",
+    "primary": "Plan online",
+    "secondary": "View concept"
+  },
+  "news": {
+    "eyebrow": "Updates & insights",
+    "title": "News from Goalsquare.",
+    "subtitle": "Product updates, methodology articles and news from the goalkeeping world.",
+    "all": "All posts",
+    "archiveTitle": "News & archive",
+    "archiveLead": "All announcements, product updates and articles – sorted chronologically and filterable by category.",
+    "searchPlaceholder": "Search posts…",
+    "noResults": "No posts found.",
+    "readingTime": "min read",
+    "relatedTitle": "More posts",
+    "categories": {
+      "product": "Product",
+      "method": "Method",
+      "company": "Company",
+      "event": "Events"
+    },
+    "share": "Share",
+    "published": "Published on"
+  },
+  "shop": {
+    "title": "Shop",
+    "lead": "Software, drills packs and media – straight from the developer of the Goalsquare method.",
+    "filterAll": "All products",
+    "categories": {
+      "software": "Software",
+      "drills": "Drills packs",
+      "media": "Media & DVD",
+      "bundle": "Bundles",
+      "subscription": "Subscription",
+      "accessory": "Accessories"
+    },
+    "sort": "Sort",
+    "sortDefault": "Recommended",
+    "sortPriceAsc": "Price low to high",
+    "sortPriceDesc": "Price high to low",
+    "resultCount": "{count} products",
+    "included": "What's included",
+    "specs": "Details",
+    "requirements": "System requirements",
+    "delivery": "Delivery",
+    "relatedTitle": "Goes well with",
+    "addedToCart": "Added to cart",
+    "emptyCategory": "No products available in this category right now."
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty.",
+    "emptyCta": "Discover products",
+    "itemCount": "{count} items",
+    "orderSummary": "Order summary",
+    "checkout": "Checkout",
+    "continueShopping": "Continue shopping",
+    "shippingNote": "Shipping is calculated in the next step.",
+    "digitalNote": "Digital products are delivered by email immediately."
+  },
+  "checkout": {
+    "title": "Checkout",
+    "step1": "Contact",
+    "step2": "Delivery",
+    "step3": "Payment",
+    "contactTitle": "Contact details",
+    "email": "Email address",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "club": "Club / organisation (optional)",
+    "addressTitle": "Billing & delivery address",
+    "street": "Street and number",
+    "zip": "Postcode",
+    "city": "City",
+    "country": "Country",
+    "phone": "Phone (optional)",
+    "paymentTitle": "Payment method",
+    "payCard": "Credit card",
+    "payPaypal": "PayPal",
+    "payInvoice": "Invoice / bank transfer",
+    "cardNumber": "Card number",
+    "cardExpiry": "Expiry",
+    "cardCvc": "CVC",
+    "terms": "I accept the terms and conditions and the privacy policy.",
+    "placeOrder": "Place order",
+    "back": "Back",
+    "next": "Continue",
+    "required": "Required",
+    "invalidEmail": "Please enter a valid email address.",
+    "demoNotice": "Demo checkout: no real payment is processed and no card is charged.",
+    "thankYouTitle": "Thank you for your order!",
+    "thankYouLead": "We have sent you a confirmation by email. Digital licences are available immediately.",
+    "orderNumber": "Order number",
+    "thankYouCta": "Back to home"
+  },
+  "contact": {
+    "title": "Contact",
+    "lead": "Questions about the method, licences or volume pricing? We usually reply within 24 hours.",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send message",
+    "sent": "Thank you! Your message has arrived.",
+    "infoTitle": "Direct line",
+    "topicOptions": [
+      "General enquiry",
+      "Software & licences",
+      "Club advice",
+      "Press"
+    ]
+  },
+  "footer": {
+    "about": "One method, digital tools and online planning for modern goalkeeper training.",
+    "columns": {
+      "product": "Product",
+      "method": "Method",
+      "company": "Company",
+      "legal": "Legal"
+    },
+    "links": {
+      "imprint": "Imprint",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "shipping": "Shipping costs",
+      "revocation": "Right of withdrawal"
+    },
+    "newsletterTitle": "Stay up to date",
+    "newsletterText": "Product updates and new drill series – around 6× a year.",
+    "rights": "All rights reserved.",
+    "tagline": "Method · Drills · Plan · Perform"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "This page does not exist (any more). Maybe one of these helps:",
+    "cta": "Back to home"
+  }
+}
