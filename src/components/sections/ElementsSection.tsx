@@ -1,5 +1,4 @@
 import { getTranslations } from "next-intl/server";
-import { Link } from "@/i18n/navigation";
 import { getElements } from "@/lib/elements";
 import type { Locale } from "@/i18n/routing";
 import ElementsExplorer from "@/components/ElementsExplorer";
@@ -7,11 +6,9 @@ import { Icon } from "@/components/icons";
 
 export default async function ElementsSection({
   locale,
-  withCta = true,
   compact = false,
 }: {
   locale: Locale;
-  withCta?: boolean;
   compact?: boolean;
 }) {
   const t = await getTranslations("elements");
@@ -43,15 +40,6 @@ export default async function ElementsSection({
         <div className="mt-11">
           <ElementsExplorer elements={elements} compact={compact} />
         </div>
-
-        {withCta && (
-          <div className="mt-9 flex justify-center">
-            <Link href="/konzept" className="gs-btn gs-btn-dark">
-              {t("teaserCta")}
-              <Icon.Arrow className="h-4 w-4" />
-            </Link>
-          </div>
-        )}
       </div>
     </section>
   );

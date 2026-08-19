@@ -69,7 +69,7 @@ export default function Header() {
           className={`mx-auto flex items-center gap-3 transition-all duration-500 ease-[cubic-bezier(.22,.7,.3,1)] ${
             onHero
               ? "h-16 w-full max-w-[1240px] border border-transparent bg-transparent px-[clamp(20px,4vw,40px)] shadow-none"
-              : "h-14 w-[min(1140px,calc(100%-1.5rem))] rounded-full border border-black/[.06] bg-white/[.93] px-3 shadow-[0_10px_34px_-18px_rgba(0,0,0,.45)] backdrop-blur-xl sm:px-4"
+              : "h-14 w-[min(1140px,calc(100%-1.5rem))] rounded-full border border-black/[.06] bg-gs-paper/[.93] px-3 shadow-[0_10px_34px_-18px_rgba(0,0,0,.45)] backdrop-blur-xl sm:px-4"
           }`}
         >
           <Link href="/" aria-label="Goalsquare" className="shrink-0">

@@ -121,34 +121,33 @@
       }
     ]
   },
-  "elements": {
-    "eyebrow": "Goalsquare method",
-    "title": "The 5 core elements.",
-    "subtitle": "Five elements that build on each other and interlock – from isolated basic technique to game-realistic competition under pressure.",
-    "hint": "Select an element to open its training content.",
-    "contents": "Training content:",
-    "teaserCta": "See the full concept",
-    "curriculumTitle": "One curriculum, five colours.",
-    "curriculumText": "Every element contains dedicated drills for each age and performance level, so every goalkeeper can be developed individually. The difficulty can be adapted to the level of the keeper.",
-    "facts": [
-      {
-        "k": "1,250+",
-        "v": "Drills in the archive"
-      },
-      {
-        "k": "5",
-        "v": "Core elements"
-      },
-      {
-        "k": "U7–Pro",
-        "v": "All age groups"
-      },
-      {
-        "k": "PDF",
-        "v": "Export & print"
-      }
-    ]
-  },
+ "elements": {
+  "eyebrow": "Goalsquare method",
+  "title": "The 5 core elements.",
+  "subtitle": "Five elements that build on each other and interlock – from isolated basic technique to game-realistic competition under pressure.",
+  "hint": "Select an element to open its training content.",
+  "contents": "Training content:",
+  "curriculumTitle": "One curriculum, five colours.",
+  "curriculumText": "Every element contains dedicated drills for each age and performance level, so every goalkeeper can be developed individually. The difficulty can be adapted to the level of the keeper.",
+  "facts": [
+    {
+      "k": "1,250+",
+      "v": "Drills in the archive"
+    },
+    {
+      "k": "5",
+      "v": "Core elements"
+    },
+    {
+      "k": "U9-Adults",
+      "v": "All age groups"
+    },
+    {
+      "k": "PDF",
+      "v": "Export & print"
+    }
+  ]
+},
   "products": {
     "eyebrow": "Goalsquare product world",
     "title": "Our products at a glance.",
