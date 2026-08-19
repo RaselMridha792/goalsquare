@@ -9,7 +9,8 @@ import AddToCartButton from "./AddToCartButton";
 import { formatPrice, type ProductCategory, type ResolvedProduct } from "@/lib/products";
 import type { Locale } from "@/i18n/routing";
 
-const CATS: ProductCategory[] = ["software", "subscription", "drills", "bundle", "media", "accessory"];
+// "subscription" ক্যাটাগরি রিমুভ করা হয়েছে যাতে Goalsquare PLAN শপে না দেখায়
+const CATS: ProductCategory[] = ["software", "drills", "bundle", "media", "accessory"];
 
 export default function ShopGrid({
   products,
@@ -25,7 +26,12 @@ export default function ShopGrid({
   const [sort, setSort] = useState<"default" | "asc" | "desc">("default");
 
   const visible = useMemo(() => {
-    const list = cat === "all" ? products : products.filter((p) => p.category === cat);
+    // Goalsquare PLAN এবং যেকোনো সাবস্ক্রিপশন আইটেম শপ থেকে পুরোপুরি হাইড করা হলো
+    const shopProducts = products.filter(
+      (p) => p.category !== "subscription" && !p.slug.includes("plan")
+    );
+
+    const list = cat === "all" ? shopProducts : shopProducts.filter((p) => p.category === cat);
     const price = (p: ResolvedProduct) => p.price ?? 0;
     if (sort === "asc") return [...list].sort((a, b) => price(a) - price(b));
     if (sort === "desc") return [...list].sort((a, b) => price(b) - price(a));

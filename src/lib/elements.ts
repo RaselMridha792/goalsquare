@@ -59,16 +59,18 @@ export const ELEMENT_META: GsElement[] = [
   {
     id: "stellungsspiel",
     number: "04",
-    color: "var(--color-el-4)",
-    colorSoft: "rgba(201,162,39,.13)",
+    // Color updated to darker mustard yellow
+    color: "#d4a017",
+    colorSoft: "rgba(212,160,23,.13)",
     icon: "stellungsspiel",
     video: "/media/GSV0114.mp4",
   },
   {
     id: "spielformen",
     number: "05",
-    color: "var(--color-el-5)",
-    colorSoft: "rgba(69,190,122,.12)",
+    // Color updated to lighter green
+    color: "#7dd181",
+    colorSoft: "rgba(125,209,129,.15)",
     icon: "spielformen",
     video: "/media/GSV0128.mp4",
   },

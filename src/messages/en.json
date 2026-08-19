@@ -148,7 +148,7 @@
     }
   ]
 },
-  "products": {
+"products": {
     "eyebrow": "Goalsquare product world",
     "title": "Our products at a glance.",
     "subtitle": "From the proven desktop software and optional drills packs to the brand-new Goalsquare PLAN online session planner.",
@@ -163,7 +163,9 @@
     "freeBadge": "100% free",
     "platforms": "iOS & Android",
     "drillsTitle": "Drill Packs",
-    "drillsAvailable": "3 Drill Packs available",
+    "drillsAvailable": "3 Drill Packs are available.",
+    "drillsText": "Expand your drill library for consistently varied training.",
+    "drillsFeature": "150+ additional drills per pack",
     "archiveBadge": "Archive extensions"
   },
   "plan": {

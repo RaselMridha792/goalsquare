@@ -123,10 +123,14 @@ export default async function ProductsOverview({ locale }: { locale: Locale }) {
               </span>
             </div>
             <h3 className="mt-5 font-display text-[22px] font-extrabold tracking-tight">{t("drillsTitle")}</h3>
-            <p className="mt-1 text-[13px] text-gs-muted">{t("drillsAvailable")} · {drills.tagline}</p>
-            <p className="mt-4 text-[13.5px] leading-relaxed text-gs-ink/70">{drills.short}</p>
+            <p className="mt-1 text-[13px] text-gs-muted">{t("drillsAvailable")}</p>
+            <p className="mt-4 text-[13.5px] leading-relaxed text-gs-ink/70">{t("drillsText")}</p>
             <ul className="mt-5 grid flex-1 gap-2">
-              {drills.features.slice(0, 4).map((f) => (
+              <li className="flex items-start gap-2 text-[13px] text-gs-ink/75">
+                <Icon.CheckCircle className="mt-0.5 h-3.5 w-3.5 shrink-0 text-acc-drills" />
+                {t("drillsFeature")}
+              </li>
+              {drills.features.slice(1, 4).map((f) => (
                 <li key={f} className="flex items-start gap-2 text-[13px] text-gs-ink/75">
                   <Icon.CheckCircle className="mt-0.5 h-3.5 w-3.5 shrink-0 text-acc-drills" />
                   {f}
