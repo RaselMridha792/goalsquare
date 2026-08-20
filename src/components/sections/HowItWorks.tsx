@@ -79,14 +79,6 @@ export default function HowItWorks() {
             );
           })}
         </ol>
-
-        {/* ক্লায়েন্টের রিকোয়েস্ট করা নতুন প্যারাগ্রাফটি এখানে অ্যাড করা হলো */}
-        <div className="mt-16 max-w-3xl rounded-3xl bg-gs-paper p-6 sm:p-8 md:mt-24">
-           <h3 className="font-display text-[22px] font-bold text-gs-ink">One curriculum, five colours.</h3>
-           <p className="mt-3 text-[15.5px] leading-relaxed text-gs-muted">
-             Every element contains dedicated drills for each age and performance level, so every goalkeeper can be developed individually. The difficulty can be adapted to the level of the keeper.
-           </p>
-        </div>
       </div>
     </section>
   );

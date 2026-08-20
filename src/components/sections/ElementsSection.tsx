@@ -29,6 +29,9 @@ export default async function ElementsSection({
             </span>
             <h2 className="gs-h2 mt-4">{t("title")}</h2>
             <p className="gs-lead mt-3">{t("subtitle")}</p>
+            <p className="mt-3 text-[16px] leading-relaxed text-gs-muted">
+              {t("curriculumText")}
+            </p>
           </div>
 
           <div className="flex items-center gap-2 text-[12.5px] font-medium text-gs-muted">
