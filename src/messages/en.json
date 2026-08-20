@@ -66,8 +66,6 @@
     "stat1Label": "Goalkeeper drills",
     "stat2": "5",
     "stat2Label": "Core elements",
-    "stat3": "4",
-    "stat3Label": "Languages",
     "stat4": "20+",
     "stat4Label": "Years of experience"
   },
@@ -202,7 +200,7 @@
     "eyebrow": "What happens in action",
     "title1": "From the first idea",
     "title2": "to the finished session.",
-    "text": "The PRO Suite online portal: plan sessions, combine drills and structure the development path of your goalkeepers in one place.",
+    "text": "The Goalsquare PLAN online portal: plan sessions, combine drills and structure the development path of your goalkeepers in one place.",
     "cta": "Plan online",
     "demoTitle": "Tuesday session",
     "demoDuration": "75 min",

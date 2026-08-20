@@ -10,7 +10,7 @@ export default async function Hero() {
   const stats = [
     { k: t("stat1"), v: t("stat1Label") },
     { k: t("stat2"), v: t("stat2Label") },
-    { k: t("stat3"), v: t("stat3Label") },
+   
     { k: t("stat4"), v: t("stat4Label") },
   ];
 

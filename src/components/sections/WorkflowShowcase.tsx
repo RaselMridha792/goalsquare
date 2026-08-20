@@ -33,7 +33,7 @@ export default async function WorkflowShowcase() {
         {/* session planner screenshot instead of HTML mock */}
         <div className="relative aspect-[16/10] w-full overflow-hidden rounded-3xl border border-white/10 bg-white/[.04] shadow-2xl">
           <Image
-            src="https://res.cloudinary.com/dsga4gyw9/image/upload/v1787124379/Training_in_the_club_voo1gr.jpg" 
+            src="https://res.cloudinary.com/dsga4gyw9/image/upload/v1787198656/werbung_hng1cd.jpg" 
             alt="Goalsquare PLAN"
             fill
             className="object-cover"

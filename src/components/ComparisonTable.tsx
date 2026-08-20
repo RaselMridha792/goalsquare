@@ -1,15 +1,80 @@
 import { getLocale } from "next-intl/server";
 import { Icon } from "./icons";
 
-const ROWS: { label: Record<string, string>; basic: boolean; pro: boolean; plan: boolean }[] = [
+type CellValue = boolean | string | Record<string, string>;
+
+const ROWS: { label: Record<string, string>; basic: CellValue; pro: CellValue; plan: CellValue }[] = [
   {
     label: {
-      de: "Basis-Übungsarchiv (260 Übungen)",
-      en: "Base drill archive (260 drills)",
-      fr: "Archive de base (260 exercices)",
-      nl: "Basisarchief (260 oefeningen)",
+      de: "Erweiterbar mit Drills Packs",
+      en: "Expandable by Drills Packs",
+      fr: "Extensible avec des Drills Packs",
+      nl: "Uitbreidbaar met Drill Packs",
     },
-    basic: true, pro: true, plan: true,
+    basic: true, pro: true, plan: false,
+  },
+  {
+    label: {
+      de: "Betriebssystem",
+      en: "Operating System",
+      fr: "Système d'exploitation",
+      nl: "Besturingssysteem",
+    },
+    basic: "Windows",
+    pro: "Windows",
+    plan: {
+      de: "Beliebig (webbasiert)",
+      en: "Any (web-based)",
+      fr: "Peu importe (navigateur)",
+      nl: "Ongeacht (webgebaseerd)",
+    },
+  },
+  {
+    label: {
+      de: "Spielererfassung (Datenbank) und Analyse",
+      en: "Player records (database) and analysis",
+      fr: "Suivi et analyse des joueurs (base de données)",
+      nl: "Spelersregistratie (database) en analyse",
+    },
+    basic: true, pro: true, plan: false,
+  },
+  {
+    label: {
+      de: "Spielaufzeichnung und -analyse",
+      en: "Game records and analysis",
+      fr: "Enregistrement et analyse des matchs",
+      nl: "Wedstrijdregistratie en -analyse",
+    },
+    basic: false, pro: true, plan: false,
+  },
+  {
+    label: {
+      de: "Trainererfassung (Datenbank)",
+      en: "Coaches records (database)",
+      fr: "Fiches entraîneurs (base de données)",
+      nl: "Trainersregistratie (database)",
+    },
+    basic: false, pro: true, plan: false,
+  },
+  {
+    label: {
+      de: "Eigene Übungen / eigene Übungsdatenbank erstellen",
+      en: "Create your own drills / own drill database",
+      fr: "Créer ses propres exercices / sa propre base d'exercices",
+      nl: "Eigen oefeningen / eigen oefeningendatabase aanmaken",
+    },
+    basic: false, pro: true, plan: false,
+  },
+  {
+    label: {
+      de: "Enthaltenes Basis-Übungsarchiv",
+      en: "Basic drills archive included",
+      fr: "Archive d'exercices de base incluse",
+      nl: "Inbegrepen basisoefeningenarchief",
+    },
+    basic: "260 (*)",
+    pro: "260 (*)",
+    plan: "1,250+",
   },
   {
     label: {
@@ -27,16 +92,7 @@ const ROWS: { label: Record<string, string>; basic: boolean; pro: boolean; plan:
       fr: "Synchronisation avec l'app mobile",
       nl: "Synchronisatie met de mobiele app",
     },
-    basic: true, pro: true, plan: true,
-  },
-  {
-    label: {
-      de: "Eigene Übungen erstellen",
-      en: "Create your own drills",
-      fr: "Créer ses propres exercices",
-      nl: "Eigen oefeningen aanmaken",
-    },
-    basic: true, pro: true, plan: true,
+    basic: true, pro: true, plan: false,
   },
   {
     label: {
@@ -55,15 +111,6 @@ const ROWS: { label: Record<string, string>; basic: boolean; pro: boolean; plan:
       nl: "Prestatie- & trainingsbeoordeling",
     },
     basic: false, pro: true, plan: false,
-  },
-  {
-    label: {
-      de: "Spielererfassung und Analyse",
-      en: "Player records and analysis",
-      fr: "Suivi et analyse des joueurs",
-      nl: "Spelersregistratie en analyse",
-    },
-    basic: false, pro: true, plan: true,
   },
   {
     label: {
@@ -90,7 +137,7 @@ const ROWS: { label: Record<string, string>; basic: boolean; pro: boolean; plan:
       fr: "Synchro cloud pour le staff",
       nl: "Cloudsync voor trainersstaf",
     },
-    basic: false, pro: false, plan: true,
+    basic: false, pro: false, plan: false,
   },
 ];
 
@@ -105,6 +152,12 @@ const SUB: Record<string, string> = {
   en: "All three use the same method and the same drill archive. They differ in where you work and how deeply you analyse.",
   fr: "Les trois utilisent la même méthode et la même archive. Ils diffèrent par l'endroit où vous travaillez et la profondeur d'analyse.",
   nl: "Alle drie gebruiken dezelfde methode en hetzelfde oefeningenarchief. Ze verschillen in waar je werkt en hoe diep je analyseert.",
+};
+const FOOTNOTE: Record<string, string> = {
+  de: "(*) = erweiterbar durch Drills Packs",
+  en: "(*) = extendable by Drills Packs",
+  fr: "(*) = extensible avec des Drills Packs",
+  nl: "(*) = uitbreidbaar met Drill Packs",
 };
 
 export default async function ComparisonTable() {
@@ -140,27 +193,43 @@ export default async function ComparisonTable() {
                   <td className="p-4 text-[13.5px] text-gs-ink/80 sm:p-5">
                     {r.label[loc] ?? r.label.de}
                   </td>
-                  <Cell on={r.basic} />
-                  <Cell on={r.pro} tint="bg-gs-ink/[.03]" />
-                  <Cell on={r.plan} tint="bg-gs-green-soft/60" />
+                  <Cell value={r.basic} loc={loc} />
+                  <Cell value={r.pro} loc={loc} tint="bg-gs-ink/[.03]" />
+                  <Cell value={r.plan} loc={loc} tint="bg-gs-green-soft/60" />
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
+
+        <p className="mt-4 text-[12.5px] text-gs-muted">{FOOTNOTE[loc] ?? FOOTNOTE.de}</p>
       </div>
     </section>
   );
 }
 
-function Cell({ on, tint = "" }: { on: boolean; tint?: string }) {
-  return (
-    <td className={`p-4 sm:p-5 ${tint}`}>
-      {on ? (
-        <Icon.CheckCircle className="h-5 w-5 text-gs-green" aria-label="yes" />
-      ) : (
-        <span className="block h-[2px] w-4 rounded-full bg-gs-line" aria-label="no" />
-      )}
-    </td>
-  );
+function Cell({
+  value,
+  loc,
+  tint = "",
+}: {
+  value: boolean | string | Record<string, string>;
+  loc: string;
+  tint?: string;
+}) {
+  let content;
+  if (typeof value === "boolean") {
+    content = value ? (
+      <Icon.CheckCircle className="h-5 w-5 text-gs-green" aria-label="yes" />
+    ) : (
+      <span className="block h-[2px] w-4 rounded-full bg-gs-line" aria-label="no" />
+    );
+  } else if (typeof value === "string") {
+    content = <span className="text-[13.5px] font-semibold text-gs-ink">{value}</span>;
+  } else {
+    content = (
+      <span className="text-[13.5px] font-semibold text-gs-ink">{value[loc] ?? value.de}</span>
+    );
+  }
+  return <td className={`p-4 sm:p-5 ${tint}`}>{content}</td>;
 }
