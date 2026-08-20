@@ -80,10 +80,10 @@ export default function Footer() {
                 {t("columns.legal")}
               </h3>
               <ul className="mt-4 grid gap-2.5 text-[14px] text-white/70">
-                <li><a href="#" className="transition hover:text-gs-green-400">{t("links.imprint")}</a></li>
-                <li><a href="#" className="transition hover:text-gs-green-400">{t("links.privacy")}</a></li>
-                <li><a href="#" className="transition hover:text-gs-green-400">{t("links.terms")}</a></li>
-                <li><a href="#" className="transition hover:text-gs-green-400">{t("links.shipping")}</a></li>
+                <li><a href="../imprint" className="transition hover:text-gs-green-400">{t("links.imprint")}</a></li>
+                <li><a href="../privacy" className="transition hover:text-gs-green-400">{t("links.privacy")}</a></li>
+                <li><a href="../terms" className="transition hover:text-gs-green-400">{t("links.terms")}</a></li>
+                <li><a href="../shipping-costs" className="transition hover:text-gs-green-400">{t("links.shipping")}</a></li>
               </ul>
             </div>
           </div>

@@ -375,5 +375,90 @@
     "title": "Pagina niet gevonden",
     "text": "Deze pagina bestaat niet (meer). Misschien helpt dit verder:",
     "cta": "Naar de startpagina"
+  },
+  "imprint": {
+    "title": "COLOFON",
+    "publisherTitle": "Verantwoordelijke Uitgever",
+    "publisherName": "Walter Harth",
+    "publisherCompany": "W. HARTH EDV-SYSTEME",
+    "publisherAddress1": "Marianusstrasse 72",
+    "publisherAddress2": "B-4780 ST.VITH-EMMELS",
+    "publisherEmail": "E-mail: info@goalsquare.eu",
+    "copyrightTitle": "Auteursrecht",
+    "copyrightSubtitle": "© 2026 W. Harth",
+    "copyrightTrademark": "Goalsquare® is een geregistreerd handelsmerk.",
+    "copyrightText": "Alle inhoud van deze website (teksten, gegevens, illustraties, foto's, afbeeldingen, logo's, productbeschrijvingen, enz.) is auteursrechtelijk beschermd. Alle vermelde bedrijfs- en merknamen, evenals hun handelsmerken, zijn eigendom van hun respectievelijke eigenaren en dienen uitsluitend ter identificatie en beschrijving van de producten.",
+    "liabilityTitle": "Aansprakelijkheidsverklaring",
+    "liabilityText1": "Alle informatie op deze website is zorgvuldig onderzocht. Desondanks is de uitgever niet aansprakelijk voor de juistheid van de verstrekte informatie.",
+    "liabilityText2": "Ondanks zorgvuldige inhoudelijke controle aanvaarden wij geen aansprakelijkheid voor de inhoud van externe links. Voor de inhoud van de gelinkte pagina's zijn uitsluitend de beheerders daarvan verantwoordelijk.",
+    "liabilityText3": "Mocht u fouten of onjuiste informatie op deze website opmerken, laat het ons dan schriftelijk weten."
+  },
+  "privacy": {
+    "title": "Privacybeleid",
+    "subtitle": "Informatie over hoe wij met uw persoonsgegevens omgaan.",
+    "s1": {
+      "title": "1. Algemene informatie",
+      "text": "Wij nemen de bescherming van uw persoonsgegevens zeer serieus. Wij behandelen uw gegevens vertrouwelijk en in overeenstemming met de wettelijke bepalingen inzake gegevensbescherming (AVG)."
+    },
+    "s2": {
+      "title": "2. Verwerkingsverantwoordelijke",
+      "text": "De verantwoordelijke voor de gegevensverwerking op deze website is:\n\nWalter Harth\nW. HARTH EDV-SYSTEME\nMarianusstrasse 72\nB-4780 ST.VITH-EMMELS\nE-mail: info@goalsquare.eu"
+    },
+    "s3": {
+      "title": "3. Gegevensverzameling op onze website",
+      "text": "Wij verzamelen gegevens wanneer u deze aan ons verstrekt (bijv. via een contactformulier of tijdens het afrekenen). Andere gegevens worden automatisch verzameld door onze IT-systemen. Deze gegevens worden gebruikt om een foutloze werking van de website te garanderen en uw bestellingen te verwerken."
+    },
+    "s4": {
+      "title": "4. Cookies en analyse",
+      "text": "Onze website maakt gebruik van 'cookies'. Cookies richten geen schade aan uw computer aan en bevatten geen virussen. Ze dienen om ons aanbod gebruiksvriendelijker, effectiever en veiliger te maken."
+    },
+    "s5": {
+      "title": "5. Uw rechten",
+      "text": "U heeft te allen tijde het recht om kosteloos informatie op te vragen over uw opgeslagen persoonsgegevens, de herkomst, de ontvangers en het doel van de verzameling. U heeft ook het recht om te verzoeken om correctie of verwijdering van deze gegevens. Neem hiervoor contact op via info@goalsquare.eu."
+    }
+  },
+  "terms": {
+    "title": "Algemene Voorwaarden",
+    "subtitle": "Algemene voorwaarden voor het gebruik van Goalsquare.",
+    "s1": {
+      "title": "1. Toepassingsgebied",
+      "text": "Deze Algemene Voorwaarden (AV) zijn van toepassing op alle overeenkomsten die tussen u als klant en ons, Goalsquare (Walter Harth), via onze website worden gesloten."
+    },
+    "s2": {
+      "title": "2. Totstandkoming van de overeenkomst",
+      "text": "De presentatie van producten in onze online shop vormt geen juridisch bindend aanbod, maar een uitnodiging om een bestelling te plaatsen. Door op de bestelknop te klikken, plaatst u een bindende bestelling."
+    },
+    "s3": {
+      "title": "3. Prijzen en betalingsvoorwaarden",
+      "text": "Alle vermelde prijzen zijn eindprijzen en inclusief de wettelijke btw. Wij bieden betaling via PayPal, creditcard en bankoverschrijving aan."
+    },
+    "s4": {
+      "title": "4. Levering en digitale inhoud",
+      "text": "Digitale producten, zoals softwarelicenties of drill packs, worden via e-mail geleverd of onmiddellijk na een succesvolle betaling beschikbaar gesteld om te downloaden. Fysieke producten worden verzonden naar het opgegeven adres."
+    }
+  },
+  "shipping": {
+    "title": "Verzendkosten & Levering",
+    "subtitle": "Informatie over verzendkosten en digitale leveringsmethoden.",
+    "digital": {
+      "title": "Digitale producten & Downloads",
+      "text": "Voor digitale producten (zoals Goalsquare PLAN-abonnementen, softwarelicenties en drill packs) worden geen verzendkosten in rekening gebracht. Toegang en licentiesleutels worden na betaling direct per e-mail geleverd."
+    },
+    "physical": {
+      "title": "Fysieke producten (USB-sticks / Datadragers)",
+      "text": "Fysieke artikelen (zoals de Goalsquare USB-stick of box-edities) worden via de post verzonden."
+    },
+    "table": {
+      "region": "Bestemming / Regio",
+      "cost": "Geschatte verzendkosten",
+      "germanyEu": "Duitsland & Europese Unie (EU)",
+      "standardEu": "€ 4,90 (incl. btw)",
+      "international": "Internationaal / Wereldwijd",
+      "standardInt": "€ 9,90 (incl. btw)"
+    },
+    "deliveryTimes": {
+      "title": "Levertijden",
+      "text": "Digitale producten zijn direct na betaling beschikbaar. Fysieke bestellingen worden binnen 1-2 werkdagen verwerkt. De levertijd binnen de EU bedraagt gemiddeld 3-7 werkdagen."
+    }
   }
 }

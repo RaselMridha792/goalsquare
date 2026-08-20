@@ -374,5 +374,90 @@
     "title": "Page not found",
     "text": "This page does not exist (any more). Maybe one of these helps:",
     "cta": "Back to home"
+  },
+"imprint": {
+    "title": "IMPRINT",
+    "publisherTitle": "Ownership of Site",
+    "publisherName": "Walter Harth",
+    "publisherCompany": "W. HARTH EDV-SYSTEME",
+    "publisherAddress1": "Marianusstrasse 72",
+    "publisherAddress2": "B-4780 St.Vith-Emmels",
+    "publisherEmail": "Email: info@goalsquare.eu",
+    "copyrightTitle": "Copyright",
+    "copyrightSubtitle": "© 2026 W. Harth",
+    "copyrightTrademark": "Goalsquare® is a registred trademark.",
+    "copyrightText": "The integrity of this website (text, files, illustrations, images, graphics, logos, product descriptions, etc.) is protected by copyright. All indicated company- and label names, as well as their registered trademarks are property of their owners and serve only for the identification and description of the products.",
+    "liabilityTitle": "Disclaimer",
+    "liabilityText1": "All information on this website was carefully gathered. The publisher is nevertheless not responsible for the correctness of the information mentioned.",
+    "liabilityText2": "This Site may contain links to other independent third-party Web sites. Such Linked Sites are not under our control, and we are not responsible for and do not endorse the content of such Linked Sites, including any information or material contained on such Linked Sites.",
+    "liabilityText3": "If you notice errors or wrong information on this website, please contact us."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Information on how we handle your personal data.",
+    "s1": {
+      "title": "1. General Information",
+      "text": "We take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations (GDPR) and this privacy policy."
+    },
+    "s2": {
+      "title": "2. Data Controller",
+      "text": "The responsible party for data processing on this website is:\n\nWalter Harth\nW. HARTH EDV-SYSTEME\nMarianusstrasse 72\nB-4780 ST.VITH-EMMELS\nEmail: info@goalsquare.eu"
+    },
+    "s3": {
+      "title": "3. Data Collection on Our Website",
+      "text": "We collect data when you provide it to us (e.g., through a contact form or during the checkout process). Other data is collected automatically by our IT systems when you visit the website. This data is used to ensure the error-free provision of the website and to process your orders securely."
+    },
+    "s4": {
+      "title": "4. Cookies & Analytics",
+      "text": "Our website uses 'cookies'. Cookies do not harm your computer and do not contain viruses. They serve to make our offer more user-friendly, effective, and secure. You can configure your browser to inform you about the use of cookies and only allow cookies on a case-by-case basis."
+    },
+    "s5": {
+      "title": "5. Your Rights",
+      "text": "You have the right to request information about your stored personal data, its origin, its recipients, and the purpose of its collection at no charge. You also have the right to request that it be corrected, blocked, or deleted. Please contact us at info@goalsquare.eu for any privacy-related concerns."
+    }
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "subtitle": "General terms and conditions for using Goalsquare.",
+    "s1": {
+      "title": "1. Scope of Application",
+      "text": "These General Terms and Conditions (GTC) apply to all contracts concluded between you as a customer and us, Goalsquare (Walter Harth), via our website."
+    },
+    "s2": {
+      "title": "2. Conclusion of Contract",
+      "text": "The presentation of products in our online shop does not constitute a legally binding offer, but an invitation to place an order. By clicking the checkout button, you place a binding order for the goods in your shopping cart."
+    },
+    "s3": {
+      "title": "3. Prices and Payment Terms",
+      "text": "All prices shown are final prices and include the statutory value-added tax (VAT). We offer payment via PayPal, Credit Card, and Bank Transfer."
+    },
+    "s4": {
+      "title": "4. Delivery and Digital Content",
+      "text": "Digital products, such as software licenses or drill packs, are delivered via email or made available for download immediately after the payment is successfully processed. Physical products are shipped to the address provided during checkout."
+    }
+  },
+  "shipping": {
+    "title": "Shipping & Delivery",
+    "subtitle": "Information about shipping costs and digital delivery methods.",
+    "digital": {
+      "title": "Digital Products & Downloads",
+      "text": "For digital goods (such as Goalsquare PLAN subscriptions, downloadable software licenses, and drill packs), no shipping fees apply. Access links and license keys are delivered directly via email or unlocked in your account upon completed payment."
+    },
+    "physical": {
+      "title": "Physical Goods (USB Sticks / Data Media)",
+      "text": "Physical items (such as the Goalsquare USB Key or boxed editions) are shipped via standard postal service from Germany/Belgium."
+    },
+    "table": {
+      "region": "Destination / Region",
+      "cost": "Estimated Shipping Cost",
+      "germanyEu": "Germany & European Union (EU)",
+      "standardEu": "€ 4.90 (incl. VAT)",
+      "international": "International / Worldwide",
+      "standardInt": "€ 9.90 (incl. VAT)"
+    },
+    "deliveryTimes": {
+      "title": "Delivery Times",
+      "text": "Digital products are available instantly after payment. Physical orders are processed within 1-2 business days. Delivery within the EU typically takes 3-7 business days, while international shipping may vary based on the local carrier."
+    }
   }
 }
